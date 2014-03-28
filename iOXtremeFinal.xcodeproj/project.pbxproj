@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17628A6B18E266B500994934 /* back-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17628A6A18E266B500994934 /* back-button.jpg */; };
+		1765B92C18E2372700035E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B92B18E2372700035E87 /* Foundation.framework */; };
+		1765B92E18E2372700035E87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B92D18E2372700035E87 /* CoreGraphics.framework */; };
+		1765B93018E2372700035E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B92F18E2372700035E87 /* UIKit.framework */; };
+		1765B93618E2372700035E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1765B93418E2372700035E87 /* InfoPlist.strings */; };
+		1765B93818E2372700035E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B93718E2372700035E87 /* main.m */; };
+		1765B93C18E2372700035E87 /* TADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B93B18E2372700035E87 /* TADAppDelegate.m */; };
+		1765B93F18E2372700035E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765B93D18E2372700035E87 /* Main.storyboard */; };
+		1765B94218E2372700035E87 /* TADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B94118E2372700035E87 /* TADViewController.m */; };
+		1765B94418E2372700035E87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1765B94318E2372700035E87 /* Images.xcassets */; };
+		1765B94B18E2372700035E87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B94A18E2372700035E87 /* XCTest.framework */; };
+		1765B94C18E2372700035E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B92B18E2372700035E87 /* Foundation.framework */; };
+		1765B94D18E2372700035E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B92F18E2372700035E87 /* UIKit.framework */; };
+		1765B95518E2372700035E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1765B95318E2372700035E87 /* InfoPlist.strings */; };
+		1765B95718E2372700035E87 /* iOXtremeFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B95618E2372700035E87 /* iOXtremeFinalTests.m */; };
+		1765B96118E2374F00035E87 /* casa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1765B96018E2374F00035E87 /* casa.jpg */; };
+		1765B96518E2390C00035E87 /* bienvenida.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B96418E2390C00035E87 /* bienvenida.png */; };
+		1765B96718E23A2B00035E87 /* bienvenida2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B96618E23A2B00035E87 /* bienvenida2.png */; };
+		1765B96A18E2415B00035E87 /* TADOpcionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B96918E2415B00035E87 /* TADOpcionesViewController.m */; };
+		1765B96C18E241B700035E87 /* aprendizajeBiodiversidad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B96B18E241B700035E87 /* aprendizajeBiodiversidad.png */; };
+		1765B97A18E2549400035E87 /* drawButton.aspx-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B97718E2549400035E87 /* drawButton.aspx-2.png */; };
+		1765B97B18E2549400035E87 /* drawButton.aspx-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B97818E2549400035E87 /* drawButton.aspx-3.png */; };
+		1765B97C18E2549400035E87 /* drawButton.aspx.png in Resources */ = {isa = PBXBuildFile; fileRef = 1765B97918E2549400035E87 /* drawButton.aspx.png */; };
+		1765B97F18E2561900035E87 /* TADLeccionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B97E18E2561900035E87 /* TADLeccionViewController.m */; };
+		1765B98218E2562700035E87 /* TADVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B98118E2562700035E87 /* TADVideoViewController.m */; };
+		1765B98518E2563200035E87 /* TADColoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765B98418E2563200035E87 /* TADColoresViewController.m */; };
+		1789BAF718E25CF300604D07 /* aprendizajeAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789BAF418E25CF300604D07 /* aprendizajeAgua.png */; };
+		1789BAF818E25CF300604D07 /* aprendizajeEnergias.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789BAF518E25CF300604D07 /* aprendizajeEnergias.png */; };
+		1789BAF918E25CF300604D07 /* aprendizajeReciclaje.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789BAF618E25CF300604D07 /* aprendizajeReciclaje.png */; };
+		DD5B549918E5C6C60016251E /* Tema.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B549818E5C6C60016251E /* Tema.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1765B94E18E2372700035E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1765B92018E2372700035E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1765B92718E2372700035E87;
+			remoteInfo = iOXtremeFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17628A6A18E266B500994934 /* back-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back-button.jpg"; sourceTree = "<group>"; };
+		1765B92818E2372700035E87 /* iOXtremeFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOXtremeFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1765B92B18E2372700035E87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1765B92D18E2372700035E87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1765B92F18E2372700035E87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1765B93318E2372700035E87 /* iOXtremeFinal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOXtremeFinal-Info.plist"; sourceTree = "<group>"; };
+		1765B93518E2372700035E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1765B93718E2372700035E87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1765B93918E2372700035E87 /* iOXtremeFinal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOXtremeFinal-Prefix.pch"; sourceTree = "<group>"; };
+		1765B93A18E2372700035E87 /* TADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TADAppDelegate.h; sourceTree = "<group>"; };
+		1765B93B18E2372700035E87 /* TADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TADAppDelegate.m; sourceTree = "<group>"; };
+		1765B93E18E2372700035E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1765B94018E2372700035E87 /* TADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TADViewController.h; sourceTree = "<group>"; };
+		1765B94118E2372700035E87 /* TADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TADViewController.m; sourceTree = "<group>"; };
+		1765B94318E2372700035E87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1765B94918E2372700035E87 /* iOXtremeFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOXtremeFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1765B94A18E2372700035E87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1765B95218E2372700035E87 /* iOXtremeFinalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOXtremeFinalTests-Info.plist"; sourceTree = "<group>"; };
+		1765B95418E2372700035E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1765B95618E2372700035E87 /* iOXtremeFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOXtremeFinalTests.m; sourceTree = "<group>"; };
+		1765B96018E2374F00035E87 /* casa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casa.jpg; sourceTree = "<group>"; };
+		1765B96418E2390C00035E87 /* bienvenida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bienvenida.png; path = ../bienvenida.png; sourceTree = "<group>"; };
+		1765B96618E23A2B00035E87 /* bienvenida2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bienvenida2.png; sourceTree = "<group>"; };
+		1765B96818E2415B00035E87 /* TADOpcionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADOpcionesViewController.h; sourceTree = "<group>"; };
+		1765B96918E2415B00035E87 /* TADOpcionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADOpcionesViewController.m; sourceTree = "<group>"; };
+		1765B96B18E241B700035E87 /* aprendizajeBiodiversidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aprendizajeBiodiversidad.png; sourceTree = "<group>"; };
+		1765B97718E2549400035E87 /* drawButton.aspx-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drawButton.aspx-2.png"; path = "../drawButton.aspx-2.png"; sourceTree = "<group>"; };
+		1765B97818E2549400035E87 /* drawButton.aspx-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drawButton.aspx-3.png"; path = "../drawButton.aspx-3.png"; sourceTree = "<group>"; };
+		1765B97918E2549400035E87 /* drawButton.aspx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drawButton.aspx.png; path = ../drawButton.aspx.png; sourceTree = "<group>"; };
+		1765B97D18E2561900035E87 /* TADLeccionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADLeccionViewController.h; sourceTree = "<group>"; };
+		1765B97E18E2561900035E87 /* TADLeccionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADLeccionViewController.m; sourceTree = "<group>"; };
+		1765B98018E2562700035E87 /* TADVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADVideoViewController.h; sourceTree = "<group>"; };
+		1765B98118E2562700035E87 /* TADVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADVideoViewController.m; sourceTree = "<group>"; };
+		1765B98318E2563200035E87 /* TADColoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADColoresViewController.h; sourceTree = "<group>"; };
+		1765B98418E2563200035E87 /* TADColoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADColoresViewController.m; sourceTree = "<group>"; };
+		1789BAF418E25CF300604D07 /* aprendizajeAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aprendizajeAgua.png; sourceTree = "<group>"; };
+		1789BAF518E25CF300604D07 /* aprendizajeEnergias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aprendizajeEnergias.png; sourceTree = "<group>"; };
+		1789BAF618E25CF300604D07 /* aprendizajeReciclaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aprendizajeReciclaje.png; sourceTree = "<group>"; };
+		DD5B549718E5C6C60016251E /* Tema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tema.h; sourceTree = "<group>"; };
+		DD5B549818E5C6C60016251E /* Tema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tema.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1765B92518E2372700035E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B92E18E2372700035E87 /* CoreGraphics.framework in Frameworks */,
+				1765B93018E2372700035E87 /* UIKit.framework in Frameworks */,
+				1765B92C18E2372700035E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1765B94618E2372700035E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B94B18E2372700035E87 /* XCTest.framework in Frameworks */,
+				1765B94D18E2372700035E87 /* UIKit.framework in Frameworks */,
+				1765B94C18E2372700035E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1765B91F18E2372700035E87 = {
+			isa = PBXGroup;
+			children = (
+				DD5B549A18E5C6CC0016251E /* Temas */,
+				1765B93118E2372700035E87 /* iOXtremeFinal */,
+				1765B95018E2372700035E87 /* iOXtremeFinalTests */,
+				1765B92A18E2372700035E87 /* Frameworks */,
+				1765B92918E2372700035E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1765B92918E2372700035E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1765B92818E2372700035E87 /* iOXtremeFinal.app */,
+				1765B94918E2372700035E87 /* iOXtremeFinalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1765B92A18E2372700035E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1765B92B18E2372700035E87 /* Foundation.framework */,
+				1765B92D18E2372700035E87 /* CoreGraphics.framework */,
+				1765B92F18E2372700035E87 /* UIKit.framework */,
+				1765B94A18E2372700035E87 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1765B93118E2372700035E87 /* iOXtremeFinal */ = {
+			isa = PBXGroup;
+			children = (
+				1765B93D18E2372700035E87 /* Main.storyboard */,
+				1765B98818E2564900035E87 /* Leccion View Controller */,
+				1765B98718E2564000035E87 /* Video View Controller */,
+				1765B98618E2563700035E87 /* Colores View Controller */,
+				1765B97018E24B5700035E87 /* App Delegate */,
+				1765B96F18E24B4D00035E87 /* Opciones View Controller */,
+				1765B96D18E24B2400035E87 /* Principal View Controller */,
+				1765B94318E2372700035E87 /* Images.xcassets */,
+				1765B96E18E24B3600035E87 /* Imagenes */,
+				1765B93218E2372700035E87 /* Supporting Files */,
+			);
+			path = iOXtremeFinal;
+			sourceTree = "<group>";
+		};
+		1765B93218E2372700035E87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1765B93318E2372700035E87 /* iOXtremeFinal-Info.plist */,
+				1765B93418E2372700035E87 /* InfoPlist.strings */,
+				1765B93718E2372700035E87 /* main.m */,
+				1765B93918E2372700035E87 /* iOXtremeFinal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1765B95018E2372700035E87 /* iOXtremeFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1765B95618E2372700035E87 /* iOXtremeFinalTests.m */,
+				1765B95118E2372700035E87 /* Supporting Files */,
+			);
+			path = iOXtremeFinalTests;
+			sourceTree = "<group>";
+		};
+		1765B95118E2372700035E87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1765B95218E2372700035E87 /* iOXtremeFinalTests-Info.plist */,
+				1765B95318E2372700035E87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1765B96D18E24B2400035E87 /* Principal View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1765B94018E2372700035E87 /* TADViewController.h */,
+				1765B94118E2372700035E87 /* TADViewController.m */,
+			);
+			name = "Principal View Controller";
+			sourceTree = "<group>";
+		};
+		1765B96E18E24B3600035E87 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				1765B96B18E241B700035E87 /* aprendizajeBiodiversidad.png */,
+				1789BAF418E25CF300604D07 /* aprendizajeAgua.png */,
+				1789BAF518E25CF300604D07 /* aprendizajeEnergias.png */,
+				1789BAF618E25CF300604D07 /* aprendizajeReciclaje.png */,
+				17628A6A18E266B500994934 /* back-button.jpg */,
+				1765B97718E2549400035E87 /* drawButton.aspx-2.png */,
+				1765B97818E2549400035E87 /* drawButton.aspx-3.png */,
+				1765B97918E2549400035E87 /* drawButton.aspx.png */,
+				1765B96418E2390C00035E87 /* bienvenida.png */,
+				1765B96618E23A2B00035E87 /* bienvenida2.png */,
+				1765B96018E2374F00035E87 /* casa.jpg */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
+		1765B96F18E24B4D00035E87 /* Opciones View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1765B96818E2415B00035E87 /* TADOpcionesViewController.h */,
+				1765B96918E2415B00035E87 /* TADOpcionesViewController.m */,
+			);
+			name = "Opciones View Controller";
+			sourceTree = "<group>";
+		};
+		1765B97018E24B5700035E87 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1765B93A18E2372700035E87 /* TADAppDelegate.h */,
+				1765B93B18E2372700035E87 /* TADAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1765B98618E2563700035E87 /* Colores View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1765B98318E2563200035E87 /* TADColoresViewController.h */,
+				1765B98418E2563200035E87 /* TADColoresViewController.m */,
+			);
+			name = "Colores View Controller";
+			sourceTree = "<group>";
+		};
+		1765B98718E2564000035E87 /* Video View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1765B98018E2562700035E87 /* TADVideoViewController.h */,
+				1765B98118E2562700035E87 /* TADVideoViewController.m */,
+			);
+			name = "Video View Controller";
+			sourceTree = "<group>";
+		};
+		1765B98818E2564900035E87 /* Leccion View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1765B97D18E2561900035E87 /* TADLeccionViewController.h */,
+				1765B97E18E2561900035E87 /* TADLeccionViewController.m */,
+			);
+			name = "Leccion View Controller";
+			sourceTree = "<group>";
+		};
+		DD5B549A18E5C6CC0016251E /* Temas */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B549718E5C6C60016251E /* Tema.h */,
+				DD5B549818E5C6C60016251E /* Tema.m */,
+			);
+			name = Temas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1765B92718E2372700035E87 /* iOXtremeFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1765B95A18E2372700035E87 /* Build configuration list for PBXNativeTarget "iOXtremeFinal" */;
+			buildPhases = (
+				1765B92418E2372700035E87 /* Sources */,
+				1765B92518E2372700035E87 /* Frameworks */,
+				1765B92618E2372700035E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOXtremeFinal;
+			productName = iOXtremeFinal;
+			productReference = 1765B92818E2372700035E87 /* iOXtremeFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1765B94818E2372700035E87 /* iOXtremeFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1765B95D18E2372700035E87 /* Build configuration list for PBXNativeTarget "iOXtremeFinalTests" */;
+			buildPhases = (
+				1765B94518E2372700035E87 /* Sources */,
+				1765B94618E2372700035E87 /* Frameworks */,
+				1765B94718E2372700035E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1765B94F18E2372700035E87 /* PBXTargetDependency */,
+			);
+			name = iOXtremeFinalTests;
+			productName = iOXtremeFinalTests;
+			productReference = 1765B94918E2372700035E87 /* iOXtremeFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1765B92018E2372700035E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ITESM;
+				TargetAttributes = {
+					1765B94818E2372700035E87 = {
+						TestTargetID = 1765B92718E2372700035E87;
+					};
+				};
+			};
+			buildConfigurationList = 1765B92318E2372700035E87 /* Build configuration list for PBXProject "iOXtremeFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1765B91F18E2372700035E87;
+			productRefGroup = 1765B92918E2372700035E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1765B92718E2372700035E87 /* iOXtremeFinal */,
+				1765B94818E2372700035E87 /* iOXtremeFinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1765B92618E2372700035E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B94418E2372700035E87 /* Images.xcassets in Resources */,
+				1765B96718E23A2B00035E87 /* bienvenida2.png in Resources */,
+				1765B93618E2372700035E87 /* InfoPlist.strings in Resources */,
+				1765B97B18E2549400035E87 /* drawButton.aspx-3.png in Resources */,
+				1765B97C18E2549400035E87 /* drawButton.aspx.png in Resources */,
+				1765B97A18E2549400035E87 /* drawButton.aspx-2.png in Resources */,
+				1765B93F18E2372700035E87 /* Main.storyboard in Resources */,
+				1765B96118E2374F00035E87 /* casa.jpg in Resources */,
+				1789BAF818E25CF300604D07 /* aprendizajeEnergias.png in Resources */,
+				1765B96518E2390C00035E87 /* bienvenida.png in Resources */,
+				1765B96C18E241B700035E87 /* aprendizajeBiodiversidad.png in Resources */,
+				1789BAF718E25CF300604D07 /* aprendizajeAgua.png in Resources */,
+				17628A6B18E266B500994934 /* back-button.jpg in Resources */,
+				1789BAF918E25CF300604D07 /* aprendizajeReciclaje.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1765B94718E2372700035E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B95518E2372700035E87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1765B92418E2372700035E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B98218E2562700035E87 /* TADVideoViewController.m in Sources */,
+				1765B93C18E2372700035E87 /* TADAppDelegate.m in Sources */,
+				1765B98518E2563200035E87 /* TADColoresViewController.m in Sources */,
+				1765B93818E2372700035E87 /* main.m in Sources */,
+				DD5B549918E5C6C60016251E /* Tema.m in Sources */,
+				1765B96A18E2415B00035E87 /* TADOpcionesViewController.m in Sources */,
+				1765B97F18E2561900035E87 /* TADLeccionViewController.m in Sources */,
+				1765B94218E2372700035E87 /* TADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1765B94518E2372700035E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765B95718E2372700035E87 /* iOXtremeFinalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1765B94F18E2372700035E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1765B92718E2372700035E87 /* iOXtremeFinal */;
+			targetProxy = 1765B94E18E2372700035E87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1765B93418E2372700035E87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1765B93518E2372700035E87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1765B93D18E2372700035E87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1765B93E18E2372700035E87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1765B95318E2372700035E87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1765B95418E2372700035E87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1765B95818E2372700035E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1765B95918E2372700035E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1765B95B18E2372700035E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOXtremeFinal/iOXtremeFinal-Prefix.pch";
+				INFOPLIST_FILE = "iOXtremeFinal/iOXtremeFinal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1765B95C18E2372700035E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOXtremeFinal/iOXtremeFinal-Prefix.pch";
+				INFOPLIST_FILE = "iOXtremeFinal/iOXtremeFinal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1765B95E18E2372700035E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOXtremeFinal.app/iOXtremeFinal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOXtremeFinal/iOXtremeFinal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOXtremeFinalTests/iOXtremeFinalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1765B95F18E2372700035E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOXtremeFinal.app/iOXtremeFinal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOXtremeFinal/iOXtremeFinal-Prefix.pch";
+				INFOPLIST_FILE = "iOXtremeFinalTests/iOXtremeFinalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1765B92318E2372700035E87 /* Build configuration list for PBXProject "iOXtremeFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1765B95818E2372700035E87 /* Debug */,
+				1765B95918E2372700035E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1765B95A18E2372700035E87 /* Build configuration list for PBXNativeTarget "iOXtremeFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1765B95B18E2372700035E87 /* Debug */,
+				1765B95C18E2372700035E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1765B95D18E2372700035E87 /* Build configuration list for PBXNativeTarget "iOXtremeFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1765B95E18E2372700035E87 /* Debug */,
+				1765B95F18E2372700035E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1765B92018E2372700035E87 /* Project object */;
+}
