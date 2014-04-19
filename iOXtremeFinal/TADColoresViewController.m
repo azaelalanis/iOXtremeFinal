@@ -16,6 +16,35 @@
 @synthesize mainImage;
 @synthesize tempImage;
 
+
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem) {
+        _detailItem = newDetailItem;
+        // Update the view.
+        [self configureView];
+    }
+}
+
+-(void)setTemas:(Tema *)agua Energias:(Tema *)energias Biodiversidad:(Tema *)biodiversidad Reciclaje:(Tema *)reciclaje
+{
+    _agua = agua;
+    _energias = energias;
+    _biodiversidad = biodiversidad;
+    _reciclaje = reciclaje;
+}
+
+- (void)configureView
+{
+    // Update the user interface for the detail item.
+    
+    if (self.detailItem) {
+        
+        self.mainImage.image = [UIImage imageNamed:(self.detailItem).actividad];
+        self.tempImage.image = [UIImage imageNamed:(self.detailItem).actividad];       
+    }
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -34,6 +63,11 @@
     opacity = 1.0;
     
     [super viewDidLoad];
+    
+    // Do any additional setup after loading the view.
+    self.mainImage.image = [UIImage imageNamed:(self.detailItem).actividad];
+    self.tempImage.image = [UIImage imageNamed:(self.detailItem).actividad];
+    _paraEnviar = NULL;
 }
 
 - (void)didReceiveMemoryWarning

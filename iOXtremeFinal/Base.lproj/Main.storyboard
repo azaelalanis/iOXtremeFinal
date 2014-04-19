@@ -158,7 +158,7 @@
                                 </state>
                                 <connections>
                                     <action selector="botonLeccion:" destination="uGn-gn-O2i" eventType="touchUpInside" id="vCl-h6-cLu"/>
-                                    <segue destination="21k-xD-zQM" kind="modal" id="avn-Pg-uAy"/>
+                                    <segue destination="21k-xD-zQM" kind="modal" identifier="leccion" id="avn-Pg-uAy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sd-hG-BL3">
@@ -169,7 +169,7 @@
                                 </state>
                                 <connections>
                                     <action selector="botonCuentos:" destination="uGn-gn-O2i" eventType="touchUpInside" id="DD7-An-99t"/>
-                                    <segue destination="OJb-GP-rza" kind="modal" id="vcG-q2-iat"/>
+                                    <segue destination="OJb-GP-rza" kind="modal" identifier="video" id="vcG-q2-iat"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1P-d4-uu8">
@@ -180,7 +180,7 @@
                                 </state>
                                 <connections>
                                     <action selector="botonActividadColores:" destination="uGn-gn-O2i" eventType="touchUpInside" id="ZLT-XF-PVQ"/>
-                                    <segue destination="JKC-CM-CHI" kind="modal" id="H3M-V3-i0O"/>
+                                    <segue destination="JKC-CM-CHI" kind="modal" identifier="colorear" id="H3M-V3-i0O"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuRenovables.png" translatesAutoresizingMaskIntoConstraints="NO" id="hvc-pN-IWP">
@@ -351,11 +351,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="actividadBiodiversidad.png" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-OV-HJv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-OV-HJv">
                                 <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="actividadBiodiversidad.png" translatesAutoresizingMaskIntoConstraints="NO" id="x22-JG-NcS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x22-JG-NcS">
                                 <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -526,7 +526,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="actividadBiodiversidad.png" width="1753" height="1240"/>
         <image name="agua_letrero.png" width="250" height="150"/>
         <image name="back-button.jpg" width="382" height="288"/>
         <image name="biodiversidad_letrero.png" width="250" height="150"/>

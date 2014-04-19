@@ -21,6 +21,8 @@
 @property (strong,nonatomic) Tema *biodiversidad;
 @property (strong,nonatomic) Tema *paraEnviar;
 @property (weak, nonatomic) IBOutlet UIButton *BAgua;
+@property (strong,nonatomic) NSString *nombre;
+
 
 - (IBAction)botonHome:(id)sender;
 - (IBAction)botonAgua:(id)sender;

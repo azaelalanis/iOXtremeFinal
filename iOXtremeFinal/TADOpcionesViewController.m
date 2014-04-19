@@ -58,7 +58,7 @@
     // Do any additional setup after loading the view.
     self.imagenFondo.image = [UIImage imageNamed:(self.detailItem).fondo];
     self.imagenMenu.image = [UIImage imageNamed:(self.detailItem).menu];
-    _paraEnviar = NULL;
+    _nombre = (self.detailItem).nombre;
 }
 
 - (void)didReceiveMemoryWarning
@@ -100,6 +100,7 @@
 }
 
 - (IBAction)botonActividadColores:(id)sender {
+    NSLog(@"Actividad Colorear");
 }
 
 - (IBAction)unwindOpciones:(UIStoryboardSegue*) segue {
@@ -115,6 +116,16 @@
         _paraEnviar = _energias;
     } else if ([[segue identifier] isEqualToString:@"reciclaje"]){
         _paraEnviar = _reciclaje;
+    } else if ([[segue identifier] isEqualToString:@"colorear"]){
+        if ([_nombre isEqualToString:@"agua"]) {
+            _paraEnviar = _agua;
+        } else if ([_nombre isEqualToString:@"biodiversidad"]){
+            _paraEnviar = _biodiversidad;
+        } else if ([_nombre isEqualToString:@"reciclaje"]){
+            _paraEnviar = _reciclaje;
+        } else if ([_nombre isEqualToString:@"energias"]){
+            _paraEnviar = _energias;
+        }
     }
     if (_paraEnviar != NULL) {
         [[segue destinationViewController] setDetailItem:_paraEnviar];

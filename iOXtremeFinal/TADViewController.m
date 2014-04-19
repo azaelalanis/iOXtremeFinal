@@ -25,10 +25,10 @@
 
 -(void) cargarObjetos
 {
-    _agua = [[Tema alloc] initWithName:@"fondoAgua.png" elMenu:@"menuAgua.png"];
-    _energias = [[Tema alloc] initWithName:@"fondoRenovables.png" elMenu:@"menuRenovables.png"];
-    _reciclaje = [[Tema alloc] initWithName:@"fondoReciclaje.png" elMenu:@"menuReciclaje.png"];
-    _biodiversidad = [[Tema alloc] initWithName:@"fondoBiodiversidad.png" elMenu:@"menuBiodiversidad.png"];
+    _agua = [[Tema alloc] initWithName:@"fondoAgua.png" elMenu:@"menuAgua.png" laActividad:@"actividadAgua.png" elNombre:@"agua"];
+    _energias = [[Tema alloc] initWithName:@"fondoRenovables.png" elMenu:@"menuRenovables.png" laActividad:@"actividadEnergias.png" elNombre:@"energias"];
+    _reciclaje = [[Tema alloc] initWithName:@"fondoReciclaje.png" elMenu:@"menuReciclaje.png" laActividad:@"actividadReciclaje.png" elNombre:@"reciclaje"];
+    _biodiversidad = [[Tema alloc] initWithName:@"fondoBiodiversidad.png" elMenu:@"menuBiodiversidad.png" laActividad:@"actividadBiodiversidad.png" elNombre:@"biodiversidad"];
 }
 
 - (void)didReceiveMemoryWarning

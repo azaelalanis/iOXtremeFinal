@@ -12,8 +12,10 @@
 
 @property (weak,nonatomic) NSString* fondo;
 @property (weak,nonatomic) NSString* menu;
+@property (weak,nonatomic) NSString* actividad;
+@property (weak,nonatomic) NSString* nombre;
 
 
--(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu;
+-(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu laActividad: (NSString *) actividad elNombre:(NSString *) nombre;
 
 @end

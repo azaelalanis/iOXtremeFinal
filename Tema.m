@@ -10,13 +10,15 @@
 
 @implementation Tema
 
--(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu
+-(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu laActividad:(NSString *)actividad elNombre:(NSString *)nombre
 {
     self = [super init];
     
     if  (self){
         _fondo = fondo;
         _menu = menu;
+        _nombre = nombre;
+        _actividad = actividad;
     }
     
     return self;

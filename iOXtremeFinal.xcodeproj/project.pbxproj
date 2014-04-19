@@ -73,6 +73,9 @@
 		DD34B9081902339B006E29B7 /* crayolaYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B8FA1902339B006E29B7 /* crayolaYellow.png */; };
 		DD34B90A1902366E006E29B7 /* actividadBiodiversidad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */; };
 		DD34B90F1902456F006E29B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B90E1902456F006E29B7 /* icon.png */; };
+		DD34B91319025645006E29B7 /* actividadAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91019025645006E29B7 /* actividadAgua.png */; };
+		DD34B91419025645006E29B7 /* actividadEnergias.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91119025645006E29B7 /* actividadEnergias.png */; };
+		DD34B91519025645006E29B7 /* actividadReciclaje.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91219025645006E29B7 /* actividadReciclaje.png */; };
 		DD5B549918E5C6C60016251E /* Tema.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B549818E5C6C60016251E /* Tema.m */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +166,9 @@
 		DD34B8FA1902339B006E29B7 /* crayolaYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crayolaYellow.png; sourceTree = "<group>"; };
 		DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadBiodiversidad.png; sourceTree = "<group>"; };
 		DD34B90E1902456F006E29B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DD34B91019025645006E29B7 /* actividadAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadAgua.png; sourceTree = "<group>"; };
+		DD34B91119025645006E29B7 /* actividadEnergias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadEnergias.png; sourceTree = "<group>"; };
+		DD34B91219025645006E29B7 /* actividadReciclaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadReciclaje.png; sourceTree = "<group>"; };
 		DD5B549718E5C6C60016251E /* Tema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tema.h; sourceTree = "<group>"; };
 		DD5B549818E5C6C60016251E /* Tema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tema.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -423,6 +429,9 @@
 		DD34B90B19023671006E29B7 /* Actividades */ = {
 			isa = PBXGroup;
 			children = (
+				DD34B91019025645006E29B7 /* actividadAgua.png */,
+				DD34B91119025645006E29B7 /* actividadEnergias.png */,
+				DD34B91219025645006E29B7 /* actividadReciclaje.png */,
 				DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */,
 			);
 			name = Actividades;
@@ -541,10 +550,12 @@
 				1765B97B18E2549400035E87 /* drawButton.aspx-3.png in Resources */,
 				DD34B8FB1902339B006E29B7 /* crayolaBeige.png in Resources */,
 				DD34B85918FF50E2006E29B7 /* renovables_letrero.png in Resources */,
+				DD34B91519025645006E29B7 /* actividadReciclaje.png in Resources */,
 				1765B97C18E2549400035E87 /* drawButton.aspx.png in Resources */,
 				1765B97A18E2549400035E87 /* drawButton.aspx-2.png in Resources */,
 				DD34B8AB18FF9AB1006E29B7 /* menuRenovables.png in Resources */,
 				1765B93F18E2372700035E87 /* Main.storyboard in Resources */,
+				DD34B91319025645006E29B7 /* actividadAgua.png in Resources */,
 				DD34B8FC1902339B006E29B7 /* crayolaBlack.png in Resources */,
 				1765B96118E2374F00035E87 /* casa.jpg in Resources */,
 				DD34B8A818FF9AB1006E29B7 /* menuBiodiversidad.png in Resources */,
@@ -556,6 +567,7 @@
 				DD34B9071902339B006E29B7 /* crayolaWhite.png in Resources */,
 				DD34B87818FF7DEB006E29B7 /* cuentaCuentos.png in Resources */,
 				DD34B8AA18FF9AB1006E29B7 /* menuReciclaje.png in Resources */,
+				DD34B91419025645006E29B7 /* actividadEnergias.png in Resources */,
 				1789BAF718E25CF300604D07 /* aprendizajeAgua.png in Resources */,
 				DD34B9021902339B006E29B7 /* crayolaOrange.png in Resources */,
 				DD34B9081902339B006E29B7 /* crayolaYellow.png in Resources */,
