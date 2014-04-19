@@ -27,6 +27,57 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self embedYouTube:[self getYTUrlStr:@"https://www.youtube.com/watch?v=VULFyIr2tj8"] frame:CGRectMake(0,40,self.view.frame.size.width, self.view.frame.size.height-40)];
+
+}
+
+
+
+
+- (NSString*)getYTUrlStr:(NSString*)url
+{
+    if (url == nil)
+        return nil;
+    
+    NSString *retVal = [url stringByReplacingOccurrencesOfString:@"watch?v=" withString:@"v/"];
+    
+    NSRange pos=[retVal rangeOfString:@"version"];
+    if(pos.location == NSNotFound)
+    {
+        retVal = [retVal stringByAppendingString:@"?version=3&hl=en_EN"];
+    }
+    return retVal;
+}
+
+
+
+- (void)embedYouTube:(NSString*)url frame:(CGRect)frame {
+    
+    NSString* embedHTML = @"\
+    <html><head>\
+    <style type=\"text/css\">\
+    body {\
+    background-color: transparent;\
+    color: white;\
+    }\
+    </style>\
+    </head><body style=\"margin:0\">\
+    <embed id=\"yt\" src=\"%@\" type=\"application/x-shockwave-flash\" \
+    width=\"%0.0f\" height=\"%0.0f\"></embed>\
+    </body></html>";
+    NSString* html = [NSString stringWithFormat:embedHTML, url, frame.size.width, frame.size.height];
+    if(_youTube == nil) {
+        _youTube = [[UIWebView alloc] initWithFrame:frame];
+        _youTube.delegate = self;
+        [self.view addSubview:_youTube];
+    }
+    
+    
+    _youTube.mediaPlaybackAllowsAirPlay=YES;
+    _youTube.allowsInlineMediaPlayback=YES;
+    [_youTube loadHTMLString:html baseURL:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,6 +85,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation

@@ -12,6 +12,7 @@
 @interface TADOpcionesViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *imagenFondo;
+@property (weak, nonatomic) IBOutlet UIImageView *imagenMenu;
 @property (strong, nonatomic) Tema* detailItem;
 
 @property (strong,nonatomic) Tema *agua;
@@ -19,6 +20,7 @@
 @property (strong,nonatomic) Tema *reciclaje;
 @property (strong,nonatomic) Tema *biodiversidad;
 @property (strong,nonatomic) Tema *paraEnviar;
+@property (weak, nonatomic) IBOutlet UIButton *BAgua;
 
 - (IBAction)botonHome:(id)sender;
 - (IBAction)botonAgua:(id)sender;

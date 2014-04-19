@@ -57,8 +57,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.imagenFondo.image = [UIImage imageNamed:(self.detailItem).fondo];
+    self.imagenMenu.image = [UIImage imageNamed:(self.detailItem).menu];
     _paraEnviar = NULL;
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -111,7 +111,7 @@
         _paraEnviar = _biodiversidad;
     } else if ([[segue identifier] isEqualToString:@"agua"]){
         _paraEnviar = _agua;
-    } else if ([[segue identifier] isEqualToString:@"energias"]){
+    } else if ([[segue identifier] isEqualToString:@"renovables"]){
         _paraEnviar = _energias;
     } else if ([[segue identifier] isEqualToString:@"reciclaje"]){
         _paraEnviar = _reciclaje;

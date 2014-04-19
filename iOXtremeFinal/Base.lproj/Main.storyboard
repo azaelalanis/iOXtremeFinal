@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -16,55 +16,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bienvenida2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aan-Tx-Y92">
-                                <rect key="frame" x="74" y="34" width="878" height="700"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="personajes_final.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aan-Tx-Y92">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfK-q9-Nk2">
-                                <rect key="frame" x="82" y="543" width="188" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA0-Ng-XbQ">
+                                <rect key="frame" x="20" y="647" width="218" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="188" id="ZyK-TA-3AF"/>
-                                </constraints>
-                                <state key="normal">
+                                <state key="normal" image="agua_letrero.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="botonBiodiversidad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ZA-9g-epI"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="biodiversidad" modalTransitionStyle="flipHorizontal" id="Zsu-RS-waG"/>
+                                    <action selector="botonCuidaAgua:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pU5-je-OvE"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="agua" id="5Wh-1x-LDg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6G-d9-0Be">
-                                <rect key="frame" x="304" y="543" width="187" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z39-6N-btS">
+                                <rect key="frame" x="533" y="642" width="218" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
+                                <state key="normal" image="renovables_letrero.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="botonCuidaAgua:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tDG-aq-qG3"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="agua" id="2Je-jM-2al"/>
+                                    <action selector="botonEnergiaRenovable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwm-27-H96"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="renovables" id="hcX-pZ-lrj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuy-Jh-pyt">
-                                <rect key="frame" x="525" y="543" width="191" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5C-kC-CDn">
+                                <rect key="frame" x="275" y="639" width="218" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
+                                <state key="normal" image="reciclaje_letrero.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="botonEnergiaRenovable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndf-fY-fgt"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="energias" id="9C2-MX-nW1"/>
+                                    <action selector="botonReciclaje:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iV-cK-G0d"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="reciclaje" id="G68-hO-JXR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nng-En-n1P">
-                                <rect key="frame" x="744" y="543" width="193" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7Q-aF-Boc">
+                                <rect key="frame" x="786" y="626" width="218" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="biodiversidad_letrero.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonBiodiversidad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XId-aH-mMQ"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="biodiversidad" id="Utv-Zw-ywe"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="titulo_boton.png" translatesAutoresizingMaskIntoConstraints="NO" id="ive-ga-apg">
+                                <rect key="frame" x="0.0" y="0.0" width="581" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sobreNosotros.png" translatesAutoresizingMaskIntoConstraints="NO" id="w4H-yf-7T5">
+                                <rect key="frame" x="786" y="0.0" width="171" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se0-BD-1KU">
+                                <rect key="frame" x="813" y="154" width="112" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="botonReciclaje:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XdY-8i-FTG"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="reciclaje" id="tyG-iY-WwG"/>
+                                    <action selector="botonSobreNosotros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u6T-wO-0XF"/>
+                                    <segue destination="sao-ug-tLU" kind="modal" identifier="sobreNosotros" id="00C-13-scB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,7 +91,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-649" y="-327"/>
+            <point key="canvasLocation" x="-722" y="-735"/>
+        </scene>
+        <!--Sobre Nosotros View Controller-->
+        <scene sceneID="Oau-6f-Qa3">
+            <objects>
+                <viewController id="sao-ug-tLU" customClass="TADSobreNosotrosViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uv6-DD-50X"/>
+                        <viewControllerLayoutGuide type="bottom" id="aDu-x0-DeZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fgQ-8s-zZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colorFondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="SHq-uW-k8A">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3b-AP-SDc">
+                                <rect key="frame" x="111" y="149" width="799" height="501"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAe-Kt-Qih">
+                                <rect key="frame" x="84" y="79" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aic-wF-79H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="-1238"/>
         </scene>
         <!--Opciones View Controller-->
         <scene sceneID="cmh-yS-RcW">
@@ -90,68 +147,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eK3-ud-vK0">
-                                <rect key="frame" x="46" y="77" width="932" height="613"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-66-jxo">
-                                <rect key="frame" x="68" y="244" width="46" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3k2-Xq-13F">
+                                <rect key="frame" x="25" y="514" width="224" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="botonHome:" destination="uGn-gn-O2i" eventType="touchUpInside" id="ACn-0W-nIT"/>
-                                    <segue destination="Xba-xp-fIY" kind="unwind" unwindAction="unwindHome:" id="3jb-Fw-jQC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUc-J5-zzX">
-                                <rect key="frame" x="128" y="270" width="46" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="botonAgua:" destination="uGn-gn-O2i" eventType="touchUpInside" id="4QB-vp-pvF"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="agua" id="Ig3-xJ-Rfg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foc-ch-lcE">
-                                <rect key="frame" x="189" y="275" width="46" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="botonReciclaje:" destination="uGn-gn-O2i" eventType="touchUpInside" id="t98-bd-yYe"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="reciclaje" id="vHc-Za-MQC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beo-zB-sfJ">
-                                <rect key="frame" x="254" y="270" width="46" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="botonEnergiasReno:" destination="uGn-gn-O2i" eventType="touchUpInside" id="ge6-vn-ysO"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="energias" id="lK6-Mb-fvS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsF-zi-94G">
-                                <rect key="frame" x="308" y="248" width="46" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="botonBiodiversidad:" destination="uGn-gn-O2i" eventType="touchUpInside" id="fiY-Iz-xcW"/>
-                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="biodiversidad" id="53n-7x-iI6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3k2-Xq-13F">
-                                <rect key="frame" x="141" y="623" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="drawButton.aspx.png">
+                                <state key="normal" image="leccion.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -159,10 +161,10 @@
                                     <segue destination="21k-xD-zQM" kind="modal" id="avn-Pg-uAy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sd-hG-BL3">
-                                <rect key="frame" x="450" y="623" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sd-hG-BL3">
+                                <rect key="frame" x="387" y="548" width="250" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="drawButton.aspx-2.png">
+                                <state key="normal" image="cuentaCuentos.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -170,15 +172,74 @@
                                     <segue destination="OJb-GP-rza" kind="modal" id="vcG-q2-iat"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1P-d4-uu8">
-                                <rect key="frame" x="759" y="623" width="125" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1P-d4-uu8">
+                                <rect key="frame" x="754" y="548" width="250" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="drawButton.aspx-3.png">
+                                <state key="normal" image="colorear.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="botonActividadColores:" destination="uGn-gn-O2i" eventType="touchUpInside" id="ZLT-XF-PVQ"/>
                                     <segue destination="JKC-CM-CHI" kind="modal" id="H3M-V3-i0O"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuRenovables.png" translatesAutoresizingMaskIntoConstraints="NO" id="hvc-pN-IWP">
+                                <rect key="frame" x="25" y="27" width="325" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82J-7f-vD5">
+                                <rect key="frame" x="109" y="81" width="46" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonAgua:" destination="uGn-gn-O2i" eventType="touchUpInside" id="7Ra-2x-KpM"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="agua" id="MLH-2i-aui"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgk-tg-rBC">
+                                <rect key="frame" x="172" y="94" width="46" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonReciclaje:" destination="uGn-gn-O2i" eventType="touchUpInside" id="iFs-QE-dDQ"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="reciclaje" id="Jce-Ic-z2K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-lg-H85">
+                                <rect key="frame" x="229" y="81" width="46" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonEnergiasReno:" destination="uGn-gn-O2i" eventType="touchUpInside" id="3hj-wk-VSx"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="renovables" id="LYW-eu-mLI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0Z-kt-eig">
+                                <rect key="frame" x="289" y="62" width="46" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonBiodiversidad:" destination="uGn-gn-O2i" eventType="touchUpInside" id="Yo2-fS-G6c"/>
+                                    <segue destination="uGn-gn-O2i" kind="modal" identifier="biodiversidad" id="JcP-hy-eBi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBX-Vw-TnX">
+                                <rect key="frame" x="56" y="60" width="46" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonHome:" destination="uGn-gn-O2i" eventType="touchUpInside" id="hj8-kG-Zip"/>
+                                    <segue destination="Xba-xp-fIY" kind="unwind" unwindAction="unwindHome:" id="onN-pA-UMP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -188,13 +249,15 @@
                     <navigationItem key="navigationItem" id="X5y-FG-Wv4"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="BAgua" destination="82J-7f-vD5" id="u9U-9v-rVA"/>
                         <outlet property="imagenFondo" destination="eK3-ud-vK0" id="m2c-u1-WgL"/>
+                        <outlet property="imagenMenu" destination="hvc-pN-IWP" id="Iul-2G-3gc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sac-aG-4SM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Xba-xp-fIY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="588" y="-327"/>
+            <point key="canvasLocation" x="629" y="-339"/>
         </scene>
         <!--Leccion View Controller-->
         <scene sceneID="N6c-cr-3v7">
@@ -233,7 +296,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hj8-cG-MjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="dOV-Fi-MZz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="-1227"/>
+            <point key="canvasLocation" x="2510" y="-1238"/>
         </scene>
         <!--Video View Controller-->
         <scene sceneID="3I6-As-KMk">
@@ -247,12 +310,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aqui se desarrollara el video de cada tema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfe-Il-I3x">
-                                <rect key="frame" x="268" y="369" width="489" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-bp-E35">
                                 <rect key="frame" x="20" y="20" width="96" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -263,16 +320,24 @@
                                     <segue destination="utj-Tb-U19" kind="unwind" unwindAction="unwindOpciones:" id="Zn2-o0-eYf"/>
                                 </connections>
                             </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="opK-b3-cng">
+                                <rect key="frame" x="187" y="287" width="650" height="404"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="youTube" destination="opK-b3-cng" id="fcT-zF-QMw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSi-vg-CM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="utj-Tb-U19" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="-332"/>
+            <point key="canvasLocation" x="2510" y="-343"/>
         </scene>
         <!--Colores View Controller-->
         <scene sceneID="Kqf-YZ-6fw">
@@ -286,12 +351,154 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aqui se desarrollara la actividad de colores de cada tema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIu-Yf-ydm">
-                                <rect key="frame" x="195" y="369" width="629" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="actividadBiodiversidad.png" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-OV-HJv">
+                                <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="actividadBiodiversidad.png" translatesAutoresizingMaskIntoConstraints="NO" id="x22-JG-NcS">
+                                <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgw-gX-4eI">
+                                <rect key="frame" x="-5" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaBlack.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="Jyg-B1-IOy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-7B-5Kg">
+                                <rect key="frame" x="69" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaGrey.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="GvL-GD-65t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zQ-2Y-OHu">
+                                <rect key="frame" x="141" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaWhite.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="whitePressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="YB4-9A-xtC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-qa-HEz">
+                                <rect key="frame" x="437" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaBrown.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="BsA-hY-zfD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlr-OQ-0Fd">
+                                <rect key="frame" x="215" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaBeige.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="gjs-4M-ong"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSq-yW-p4p">
+                                <rect key="frame" x="288" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaYellow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="rQn-bX-gH2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSA-2B-dEn">
+                                <rect key="frame" x="363" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaOrange.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="UJ7-Js-6DV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0X-Ll-zIZ">
+                                <rect key="frame" x="505" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaRed.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="sJb-R2-47W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBd-kt-vwm">
+                                <rect key="frame" x="578" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaPink.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="84J-0L-gsx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6c-hc-o9d">
+                                <rect key="frame" x="650" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaPurple.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="dsc-A8-1WH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzq-g1-zMu">
+                                <rect key="frame" x="723" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaBlue.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="Btj-Sq-2Gp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooa-rI-gE7">
+                                <rect key="frame" x="795" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaSky.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="hNs-Wg-ol2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rC-8e-vOV">
+                                <rect key="frame" x="869" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaGreen.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="e7h-q2-vG0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-vw-pHR">
+                                <rect key="frame" x="943" y="608" width="85" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="crayolaLime.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="IV2-hF-CFn"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftz-8S-KkP">
                                 <rect key="frame" x="20" y="20" width="96" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -307,26 +514,54 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="mainImage" destination="EUV-OV-HJv" id="JIl-Rv-tkV"/>
+                        <outlet property="tempImage" destination="x22-JG-NcS" id="QG2-B7-YBp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NjI-RT-YGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="cll-Bg-2Cv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="545"/>
+            <point key="canvasLocation" x="2577" y="660"/>
         </scene>
     </scenes>
     <resources>
+        <image name="actividadBiodiversidad.png" width="1753" height="1240"/>
+        <image name="agua_letrero.png" width="250" height="150"/>
         <image name="back-button.jpg" width="382" height="288"/>
-        <image name="bienvenida2.png" width="1950" height="1556"/>
-        <image name="drawButton.aspx-2.png" width="235" height="235"/>
-        <image name="drawButton.aspx-3.png" width="235" height="235"/>
-        <image name="drawButton.aspx.png" width="235" height="235"/>
+        <image name="biodiversidad_letrero.png" width="250" height="150"/>
+        <image name="colorFondo.png" width="1254" height="858"/>
+        <image name="colorear.png" width="250" height="200"/>
+        <image name="crayolaBeige.png" width="78" height="400"/>
+        <image name="crayolaBlack.png" width="78" height="400"/>
+        <image name="crayolaBlue.png" width="78" height="400"/>
+        <image name="crayolaBrown.png" width="78" height="400"/>
+        <image name="crayolaGreen.png" width="78" height="400"/>
+        <image name="crayolaGrey.png" width="78" height="400"/>
+        <image name="crayolaLime.png" width="78" height="400"/>
+        <image name="crayolaOrange.png" width="78" height="400"/>
+        <image name="crayolaPink.png" width="78" height="400"/>
+        <image name="crayolaPurple.png" width="78" height="400"/>
+        <image name="crayolaRed.png" width="78" height="400"/>
+        <image name="crayolaSky.png" width="78" height="400"/>
+        <image name="crayolaWhite.png" width="78" height="400"/>
+        <image name="crayolaYellow.png" width="78" height="400"/>
+        <image name="cuentaCuentos.png" width="250" height="200"/>
+        <image name="leccion.png" width="250" height="200"/>
+        <image name="menuRenovables.png" width="350" height="150"/>
+        <image name="personajes_final.png" width="1254" height="858"/>
+        <image name="reciclaje_letrero.png" width="250" height="150"/>
+        <image name="renovables_letrero.png" width="250" height="150"/>
+        <image name="sobreNosotros.png" width="150" height="230"/>
+        <image name="titulo_boton.png" width="600" height="200"/>
     </resources>
+    <color key="tintColor" red="0.89204259072580649" green="0.7084803427419355" blue="0.38972380999999956" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tyG-iY-WwG"/>
+        <segue reference="Utv-Zw-ywe"/>
     </inferredMetricsTieBreakers>
 </document>

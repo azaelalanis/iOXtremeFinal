@@ -25,10 +25,10 @@
 
 -(void) cargarObjetos
 {
-    _agua = [[Tema alloc] initWithName:@"aprendizajeAgua.png"];
-    _energias = [[Tema alloc] initWithName:@"aprendizajeEnergias.png"];
-    _reciclaje = [[Tema alloc] initWithName:@"aprendizajeReciclaje.png"];
-    _biodiversidad = [[Tema alloc] initWithName:@"aprendizajeBiodiversidad.png"];
+    _agua = [[Tema alloc] initWithName:@"fondoAgua.png" elMenu:@"menuAgua.png"];
+    _energias = [[Tema alloc] initWithName:@"fondoRenovables.png" elMenu:@"menuRenovables.png"];
+    _reciclaje = [[Tema alloc] initWithName:@"fondoReciclaje.png" elMenu:@"menuReciclaje.png"];
+    _biodiversidad = [[Tema alloc] initWithName:@"fondoBiodiversidad.png" elMenu:@"menuBiodiversidad.png"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +39,10 @@
 
 - (IBAction)botonBiodiversidad:(id)sender {
     NSLog(@"Biodiversidad");
+}
+
+- (IBAction)botonSobreNosotros:(id)sender {
+    
 }
 
 - (IBAction)botonCuidaAgua:(id)sender {
@@ -59,16 +63,23 @@
 
 //Prepara los datos para mandarlos a la siguiente vista:
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
     if ([[segue identifier] isEqualToString:@"biodiversidad"]){
         _paraEnviar = _biodiversidad;
     } else if ([[segue identifier] isEqualToString:@"agua"]){
         _paraEnviar = _agua;
-    } else if ([[segue identifier] isEqualToString:@"energias"]){
+    } else if ([[segue identifier] isEqualToString:@"renovables"]){
         _paraEnviar = _energias;
     } else if ([[segue identifier] isEqualToString:@"reciclaje"]){
         _paraEnviar = _reciclaje;
+    } else if ([[segue identifier] isEqualToString:@"sobreNosotros"]){
+        
     }
-    [[segue destinationViewController] setDetailItem:_paraEnviar];
-    [[segue destinationViewController] setTemas:_agua Energias:_energias Biodiversidad:_biodiversidad Reciclaje:_reciclaje];
+    
+    if (![[segue identifier] isEqualToString:@"sobreNosotros"]) {
+        [[segue destinationViewController] setDetailItem:_paraEnviar];
+        [[segue destinationViewController] setTemas:_agua Energias:_energias Biodiversidad:_biodiversidad Reciclaje:_reciclaje];
+    }
+    
 }
 @end

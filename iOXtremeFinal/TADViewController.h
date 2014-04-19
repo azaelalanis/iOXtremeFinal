@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Tema.h"
 #import "TADOpcionesViewController.h"
+#import "TADSobreNosotrosViewController.h"
 
 @interface TADViewController : UIViewController
 @property (strong,nonatomic) Tema *agua;
@@ -21,6 +22,7 @@
 - (IBAction)botonEnergiaRenovable:(id)sender;
 - (IBAction)botonReciclaje:(id)sender;
 - (IBAction)botonBiodiversidad:(id)sender;
+- (IBAction)botonSobreNosotros:(id)sender;
 
 
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TADVideoViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *youTube;
 
 @end

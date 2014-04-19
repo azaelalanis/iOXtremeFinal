@@ -11,8 +11,9 @@
 @interface Tema : NSObject
 
 @property (weak,nonatomic) NSString* fondo;
+@property (weak,nonatomic) NSString* menu;
 
 
--(id) initWithName: (NSString*) fondo;
+-(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu;
 
 @end
