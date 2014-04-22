@@ -2,9 +2,8 @@ iOXtremeFinal
 =============
 
 iOXtreme - Mobile applicaton for iPad that contains information about the global warming, specifically about water care, 
-Aplicación móvil para iPad que contenga información sobre el calentamiento, biodiversity, renewable energy and recycling. 
-global específicamente sobre el cuidado del agua, la biodiversidad, renewable energy and recycling. This application will 
-be focused on preschool kids and the content material will be easily used by children of this age.
+biodiversity, renewable energy and recycling.This application will be focused on preschool kids and the content material 
+will be easily used by children of this age.
 
 	Copyright (C) 2014 - ITESM
 
