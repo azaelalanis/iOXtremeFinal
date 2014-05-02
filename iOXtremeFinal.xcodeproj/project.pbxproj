@@ -71,11 +71,14 @@
 		DD34B9061902339B006E29B7 /* crayolaSky.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B8F81902339B006E29B7 /* crayolaSky.png */; };
 		DD34B9071902339B006E29B7 /* crayolaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B8F91902339B006E29B7 /* crayolaWhite.png */; };
 		DD34B9081902339B006E29B7 /* crayolaYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B8FA1902339B006E29B7 /* crayolaYellow.png */; };
-		DD34B90A1902366E006E29B7 /* actividadBiodiversidad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */; };
 		DD34B90F1902456F006E29B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B90E1902456F006E29B7 /* icon.png */; };
-		DD34B91319025645006E29B7 /* actividadAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91019025645006E29B7 /* actividadAgua.png */; };
-		DD34B91419025645006E29B7 /* actividadEnergias.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91119025645006E29B7 /* actividadEnergias.png */; };
-		DD34B91519025645006E29B7 /* actividadReciclaje.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91219025645006E29B7 /* actividadReciclaje.png */; };
+		DD34B91E19036112006E29B7 /* actividadAguaTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91A19036112006E29B7 /* actividadAguaTransparente.png */; };
+		DD34B92019036112006E29B7 /* actividadEnergiasTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91C19036112006E29B7 /* actividadEnergiasTransparente.png */; };
+		DD34B92119036112006E29B7 /* actividadReciclajeTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91D19036112006E29B7 /* actividadReciclajeTransparente.png */; };
+		DD34B92319036385006E29B7 /* actividadBiodiversidadTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92219036385006E29B7 /* actividadBiodiversidadTransparente.png */; };
+		DD34B92719036886006E29B7 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92419036886006E29B7 /* arrow.png */; };
+		DD34B92819036886006E29B7 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92519036886006E29B7 /* home.png */; };
+		DD34B92919036886006E29B7 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92619036886006E29B7 /* save.png */; };
 		DD5B549918E5C6C60016251E /* Tema.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B549818E5C6C60016251E /* Tema.m */; };
 /* End PBXBuildFile section */
 
@@ -164,11 +167,14 @@
 		DD34B8F81902339B006E29B7 /* crayolaSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crayolaSky.png; sourceTree = "<group>"; };
 		DD34B8F91902339B006E29B7 /* crayolaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crayolaWhite.png; sourceTree = "<group>"; };
 		DD34B8FA1902339B006E29B7 /* crayolaYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crayolaYellow.png; sourceTree = "<group>"; };
-		DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadBiodiversidad.png; sourceTree = "<group>"; };
 		DD34B90E1902456F006E29B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		DD34B91019025645006E29B7 /* actividadAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadAgua.png; sourceTree = "<group>"; };
-		DD34B91119025645006E29B7 /* actividadEnergias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadEnergias.png; sourceTree = "<group>"; };
-		DD34B91219025645006E29B7 /* actividadReciclaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadReciclaje.png; sourceTree = "<group>"; };
+		DD34B91A19036112006E29B7 /* actividadAguaTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadAguaTransparente.png; sourceTree = "<group>"; };
+		DD34B91C19036112006E29B7 /* actividadEnergiasTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadEnergiasTransparente.png; sourceTree = "<group>"; };
+		DD34B91D19036112006E29B7 /* actividadReciclajeTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadReciclajeTransparente.png; sourceTree = "<group>"; };
+		DD34B92219036385006E29B7 /* actividadBiodiversidadTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadBiodiversidadTransparente.png; sourceTree = "<group>"; };
+		DD34B92419036886006E29B7 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		DD34B92519036886006E29B7 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		DD34B92619036886006E29B7 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		DD5B549718E5C6C60016251E /* Tema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tema.h; sourceTree = "<group>"; };
 		DD5B549818E5C6C60016251E /* Tema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tema.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -383,6 +389,9 @@
 		DD34B89918FF968D006E29B7 /* Botones */ = {
 			isa = PBXGroup;
 			children = (
+				DD34B92419036886006E29B7 /* arrow.png */,
+				DD34B92519036886006E29B7 /* home.png */,
+				DD34B92619036886006E29B7 /* save.png */,
 				DD34B8A218FF9AB1006E29B7 /* menuAgua.png */,
 				DD34B8A318FF9AB1006E29B7 /* menuBiodiversidad.png */,
 				DD34B8A418FF9AB1006E29B7 /* menuHome.png */,
@@ -429,10 +438,10 @@
 		DD34B90B19023671006E29B7 /* Actividades */ = {
 			isa = PBXGroup;
 			children = (
-				DD34B91019025645006E29B7 /* actividadAgua.png */,
-				DD34B91119025645006E29B7 /* actividadEnergias.png */,
-				DD34B91219025645006E29B7 /* actividadReciclaje.png */,
-				DD34B9091902366E006E29B7 /* actividadBiodiversidad.png */,
+				DD34B91A19036112006E29B7 /* actividadAguaTransparente.png */,
+				DD34B92219036385006E29B7 /* actividadBiodiversidadTransparente.png */,
+				DD34B91C19036112006E29B7 /* actividadEnergiasTransparente.png */,
+				DD34B91D19036112006E29B7 /* actividadReciclajeTransparente.png */,
 			);
 			name = Actividades;
 			sourceTree = "<group>";
@@ -533,10 +542,10 @@
 				DD34B89718FF9647006E29B7 /* fondoReciclaje.png in Resources */,
 				DD34B8FE1902339B006E29B7 /* crayolaBrown.png in Resources */,
 				DD34B85318FF5045006E29B7 /* biodiversidad_letrero.png in Resources */,
-				DD34B90A1902366E006E29B7 /* actividadBiodiversidad.png in Resources */,
 				1765B96718E23A2B00035E87 /* bienvenida2.png in Resources */,
 				DD34B85718FF50E2006E29B7 /* agua_letrero.png in Resources */,
 				DD34B9041902339B006E29B7 /* crayolaPurple.png in Resources */,
+				DD34B92319036385006E29B7 /* actividadBiodiversidadTransparente.png in Resources */,
 				DD34B9011902339B006E29B7 /* crayolaLime.png in Resources */,
 				DD34B89618FF9647006E29B7 /* fondoBiodiversidad.png in Resources */,
 				DD34B85D18FF5661006E29B7 /* sobreNosotros.png in Resources */,
@@ -549,17 +558,19 @@
 				DD34B8FD1902339B006E29B7 /* crayolaBlue.png in Resources */,
 				1765B97B18E2549400035E87 /* drawButton.aspx-3.png in Resources */,
 				DD34B8FB1902339B006E29B7 /* crayolaBeige.png in Resources */,
+				DD34B92919036886006E29B7 /* save.png in Resources */,
 				DD34B85918FF50E2006E29B7 /* renovables_letrero.png in Resources */,
-				DD34B91519025645006E29B7 /* actividadReciclaje.png in Resources */,
+				DD34B92019036112006E29B7 /* actividadEnergiasTransparente.png in Resources */,
+				DD34B91E19036112006E29B7 /* actividadAguaTransparente.png in Resources */,
 				1765B97C18E2549400035E87 /* drawButton.aspx.png in Resources */,
 				1765B97A18E2549400035E87 /* drawButton.aspx-2.png in Resources */,
 				DD34B8AB18FF9AB1006E29B7 /* menuRenovables.png in Resources */,
 				1765B93F18E2372700035E87 /* Main.storyboard in Resources */,
-				DD34B91319025645006E29B7 /* actividadAgua.png in Resources */,
 				DD34B8FC1902339B006E29B7 /* crayolaBlack.png in Resources */,
 				1765B96118E2374F00035E87 /* casa.jpg in Resources */,
 				DD34B8A818FF9AB1006E29B7 /* menuBiodiversidad.png in Resources */,
 				1789BAF818E25CF300604D07 /* aprendizajeEnergias.png in Resources */,
+				DD34B92119036112006E29B7 /* actividadReciclajeTransparente.png in Resources */,
 				DD34B8A718FF9AB1006E29B7 /* menuAgua.png in Resources */,
 				1765B96518E2390C00035E87 /* bienvenida.png in Resources */,
 				1765B96C18E241B700035E87 /* aprendizajeBiodiversidad.png in Resources */,
@@ -567,11 +578,12 @@
 				DD34B9071902339B006E29B7 /* crayolaWhite.png in Resources */,
 				DD34B87818FF7DEB006E29B7 /* cuentaCuentos.png in Resources */,
 				DD34B8AA18FF9AB1006E29B7 /* menuReciclaje.png in Resources */,
-				DD34B91419025645006E29B7 /* actividadEnergias.png in Resources */,
 				1789BAF718E25CF300604D07 /* aprendizajeAgua.png in Resources */,
+				DD34B92819036886006E29B7 /* home.png in Resources */,
 				DD34B9021902339B006E29B7 /* crayolaOrange.png in Resources */,
 				DD34B9081902339B006E29B7 /* crayolaYellow.png in Resources */,
 				17628A6B18E266B500994934 /* back-button.jpg in Resources */,
+				DD34B92719036886006E29B7 /* arrow.png in Resources */,
 				DD34B90F1902456F006E29B7 /* icon.png in Resources */,
 				DD34B89518FF9647006E29B7 /* fondoAgua.png in Resources */,
 				1789BAF918E25CF300604D07 /* aprendizajeReciclaje.png in Resources */,

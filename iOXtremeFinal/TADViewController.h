@@ -17,6 +17,8 @@
 @property (strong,nonatomic) Tema *reciclaje;
 @property (strong,nonatomic) Tema *biodiversidad;
 @property (strong,nonatomic) Tema *paraEnviar;
+@property (strong, nonatomic) Tema* detailItem;
+
 
 - (IBAction)botonCuidaAgua:(id)sender;
 - (IBAction)botonEnergiaRenovable:(id)sender;

@@ -15,7 +15,7 @@
 @implementation TADColoresViewController
 @synthesize mainImage;
 @synthesize tempImage;
-
+@synthesize prueba;
 
 - (void)setDetailItem:(id)newDetailItem
 {
@@ -67,6 +67,7 @@
     // Do any additional setup after loading the view.
     self.mainImage.image = [UIImage imageNamed:(self.detailItem).actividad];
     self.tempImage.image = [UIImage imageNamed:(self.detailItem).actividad];
+    self.prueba.image = [UIImage imageNamed:(self.detailItem).actividad];
     _paraEnviar = NULL;
 }
 
@@ -187,8 +188,8 @@
     UITouch *touch = [touches anyObject];
     CGPoint currentPoint = [touch locationInView:self.view];
     
-    UIGraphicsBeginImageContext(self.view.bounds.size);
-    [self.tempImage.image drawInRect:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    UIGraphicsBeginImageContext(self.mainImage.frame.size);
+    [self.tempImage.image drawInRect:CGRectMake(0, 0, self.mainImage.frame.size.width, self.mainImage.frame.size.height)];
     CGContextMoveToPoint(UIGraphicsGetCurrentContext(), lastPoint.x, lastPoint.y);
     CGContextAddLineToPoint(UIGraphicsGetCurrentContext(), currentPoint.x, currentPoint.y);
     CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
@@ -198,7 +199,7 @@
     
     CGContextStrokePath(UIGraphicsGetCurrentContext());
     self.tempImage.image = UIGraphicsGetImageFromCurrentImageContext();
-    [self.tempImage setAlpha:opacity];
+    [self.tempImage setAlpha:1.0];
     UIGraphicsEndImageContext();
     
     lastPoint = currentPoint;
@@ -208,7 +209,7 @@
     
     if(!mouseSwiped) {
         UIGraphicsBeginImageContext(self.view.bounds.size);
-        [self.tempImage.image drawInRect:CGRectMake(0, 0, self.tempImage.bounds.size.width, self.tempImage.bounds.size.height)];
+        [self.tempImage.image drawInRect:CGRectMake(0, 0, self.mainImage.frame.size.width, self.mainImage.frame.size.height)];
         CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
         CGContextSetLineWidth(UIGraphicsGetCurrentContext(), brush);
         CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), red, green, blue, opacity);
@@ -220,12 +221,86 @@
         UIGraphicsEndImageContext();
     }
     
-    UIGraphicsBeginImageContext(self.mainImage.bounds.size);
+    UIGraphicsBeginImageContext(self.mainImage.frame.size);
     [self.mainImage.image drawInRect:CGRectMake(0, 0, self.mainImage.bounds.size.width, self.mainImage.bounds.size.height) blendMode:kCGBlendModeNormal alpha:1.0];
-    [self.tempImage.image drawInRect:CGRectMake(0, 0, self.tempImage.bounds.size.width, self.tempImage.bounds.size.height) blendMode:kCGBlendModeNormal alpha:opacity];
+    [self.tempImage.image drawInRect:CGRectMake(0, 0, self.mainImage.bounds.size.width, self.mainImage.bounds.size.height) blendMode:kCGBlendModeNormal alpha:opacity];
     self.mainImage.image = UIGraphicsGetImageFromCurrentImageContext();
     self.tempImage.image = nil;
     UIGraphicsEndImageContext();
+}
+
+- (IBAction)save:(id)sender {
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@""
+                                                             delegate:self
+                                                    cancelButtonTitle:nil
+                                               destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"Save to Camera Roll", @"Cancel", nil];
+    [actionSheet showInView:self.view];
+    
+}
+
++ (UIImage*)mergeImage:(UIImage*)first withImage:(UIImage*)second
+{
+    // get size of the first image
+    CGImageRef firstImageRef = first.CGImage;
+    CGFloat firstWidth = CGImageGetWidth(firstImageRef);
+    CGFloat firstHeight = CGImageGetHeight(firstImageRef);
+    
+    // get size of the second image
+    CGImageRef secondImageRef = second.CGImage;
+    CGFloat secondWidth = CGImageGetWidth(secondImageRef);
+    CGFloat secondHeight = CGImageGetHeight(secondImageRef);
+    
+    // build merged size
+    CGSize mergedSize = CGSizeMake(MIN(firstWidth, secondWidth), MIN(firstHeight, secondHeight));
+    
+    // capture image context ref
+    UIGraphicsBeginImageContext(mergedSize);
+    
+    //Draw images onto the context
+    [first drawInRect:CGRectMake(0, 0, firstWidth, firstHeight)];
+    [second drawInRect:CGRectMake(0, 0, firstWidth, firstHeight)];
+    
+    // assign context to new UIImage
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    // end context
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex == 0) {
+        
+        //self.guardar = [[UIImage alloc] init];
+        
+        mainImage.image = [TADColoresViewController mergeImage:mainImage.image withImage:prueba.image];
+        
+        
+        UIGraphicsBeginImageContextWithOptions(self.mainImage.bounds.size, NO, 0.0);
+        [self.mainImage.image drawInRect:CGRectMake(0, 0, self.mainImage.frame.size.width, self.mainImage.frame.size.height)];
+        UIImage *SaveImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        UIImageWriteToSavedPhotosAlbum(SaveImage, self,@selector(image:didFinishSavingWithError:contextInfo:), nil);
+        
+       // UIImageWriteToSavedPhotosAlbum(_guardar, nil, nil, nil);
+    }
+}
+
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    // Was there an error?
+    if (error != NULL)
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Image could not be saved.Please try again"  delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Close", nil];
+        [alert show];
+    } else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Image was successfully saved in photoalbum"  delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Close", nil];
+        [alert show];
+    }
 }
 
 @end

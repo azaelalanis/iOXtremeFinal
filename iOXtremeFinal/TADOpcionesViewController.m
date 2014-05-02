@@ -59,6 +59,7 @@
     self.imagenFondo.image = [UIImage imageNamed:(self.detailItem).fondo];
     self.imagenMenu.image = [UIImage imageNamed:(self.detailItem).menu];
     _nombre = (self.detailItem).nombre;
+    _paraEnviar = NULL;
 }
 
 - (void)didReceiveMemoryWarning
@@ -110,7 +111,9 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([[segue identifier] isEqualToString:@"biodiversidad"]){
         _paraEnviar = _biodiversidad;
-    } else if ([[segue identifier] isEqualToString:@"agua"]){
+    }else if ([[segue identifier] isEqualToString:@"home"]){
+        NSLog(@"hola");
+    }else if ([[segue identifier] isEqualToString:@"agua"]){
         _paraEnviar = _agua;
     } else if ([[segue identifier] isEqualToString:@"renovables"]){
         _paraEnviar = _energias;
@@ -131,6 +134,6 @@
         [[segue destinationViewController] setDetailItem:_paraEnviar];
         [[segue destinationViewController] setTemas:_agua Energias:_energias Biodiversidad:_biodiversidad Reciclaje:_reciclaje];
     }
-
+    _paraEnviar = NULL;
 }
 @end

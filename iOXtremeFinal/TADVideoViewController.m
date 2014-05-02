@@ -28,8 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self embedYouTube:[self getYTUrlStr:@"https://www.youtube.com/watch?v=VULFyIr2tj8"] frame:CGRectMake(0,40,self.view.frame.size.width, self.view.frame.size.height-40)];
-
+    [self embedYouTube:[self getYTUrlStr:@"https://www.youtube.com/watch?v=VULFyIr2tj8"] frame:self.youTube.frame];
+    
 }
 
 
@@ -59,7 +59,7 @@
     <style type=\"text/css\">\
     body {\
     background-color: transparent;\
-    color: white;\
+    color: transparent;\
     }\
     </style>\
     </head><body style=\"margin:0\">\
@@ -67,16 +67,13 @@
     width=\"%0.0f\" height=\"%0.0f\"></embed>\
     </body></html>";
     NSString* html = [NSString stringWithFormat:embedHTML, url, frame.size.width, frame.size.height];
-    if(_youTube == nil) {
-        _youTube = [[UIWebView alloc] initWithFrame:frame];
-        _youTube.delegate = self;
-        [self.view addSubview:_youTube];
-    }
     
-    
-    _youTube.mediaPlaybackAllowsAirPlay=YES;
-    _youTube.allowsInlineMediaPlayback=YES;
-    [_youTube loadHTMLString:html baseURL:nil];
+    UIWebView *viewVideo = [[UIWebView alloc] initWithFrame:frame];
+    [viewVideo loadHTMLString:html baseURL:nil];
+    viewVideo.scalesPageToFit = YES;
+    viewVideo.mediaPlaybackAllowsAirPlay = YES;
+    viewVideo.allowsInlineMediaPlayback = YES;
+    [self.view addSubview:viewVideo];
     
 }
 
@@ -88,14 +85,14 @@
 
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

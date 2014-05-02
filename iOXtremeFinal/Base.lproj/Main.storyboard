@@ -117,12 +117,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAe-Kt-Qih">
-                                <rect key="frame" x="84" y="79" width="42" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAe-Kt-Qih">
+                                <rect key="frame" x="35" y="36" width="86" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="BACK">
+                                <state key="normal" image="home.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2SM-po-J6X" kind="unwind" unwindAction="unwindHome:" id="TJq-MK-vRl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -131,6 +134,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aic-wF-79H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2SM-po-J6X" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="629" y="-1238"/>
         </scene>
@@ -238,8 +242,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="botonHome:" destination="uGn-gn-O2i" eventType="touchUpInside" id="hj8-kG-Zip"/>
-                                    <segue destination="Xba-xp-fIY" kind="unwind" unwindAction="unwindHome:" id="onN-pA-UMP"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="home" id="Hh3-Dg-brE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -255,7 +258,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sac-aG-4SM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Xba-xp-fIY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="629" y="-339"/>
         </scene>
@@ -310,6 +312,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoAgua.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Xx-Mk-U0s">
+                                <rect key="frame" x="-10" y="-10" width="1040" height="786"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-bp-E35">
                                 <rect key="frame" x="20" y="20" width="96" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -321,7 +327,7 @@
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="opK-b3-cng">
-                                <rect key="frame" x="187" y="287" width="650" height="404"/>
+                                <rect key="frame" x="187" y="287" width="537" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -352,11 +358,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-OV-HJv">
-                                <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1028" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x22-JG-NcS">
-                                <rect key="frame" x="-2" y="-4" width="1032" height="772"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1028" height="609"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bez-jf-51c">
+                                <rect key="frame" x="0.0" y="0.0" width="1028" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgw-gX-4eI">
@@ -499,14 +509,24 @@
                                     <action selector="colorPressed:" destination="JKC-CM-CHI" eventType="touchUpInside" id="IV2-hF-CFn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftz-8S-KkP">
-                                <rect key="frame" x="20" y="20" width="96" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftz-8S-KkP">
+                                <rect key="frame" x="20" y="7" width="75" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="back-button.jpg">
+                                <state key="normal" image="arrow.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="cll-Bg-2Cv" kind="unwind" unwindAction="unwindOpciones:" id="WIg-H9-Ddm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVJ-lK-mpb">
+                                <rect key="frame" x="114" y="13" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="save.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="save:" destination="JKC-CM-CHI" eventType="touchUpInside" id="2zO-8W-W19"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -516,6 +536,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="mainImage" destination="EUV-OV-HJv" id="JIl-Rv-tkV"/>
+                        <outlet property="prueba" destination="bez-jf-51c" id="SDS-xG-ZuH"/>
                         <outlet property="tempImage" destination="x22-JG-NcS" id="QG2-B7-YBp"/>
                     </connections>
                 </viewController>
@@ -527,6 +548,7 @@
     </scenes>
     <resources>
         <image name="agua_letrero.png" width="250" height="150"/>
+        <image name="arrow.png" width="128" height="128"/>
         <image name="back-button.jpg" width="382" height="288"/>
         <image name="biodiversidad_letrero.png" width="250" height="150"/>
         <image name="colorFondo.png" width="1254" height="858"/>
@@ -546,11 +568,14 @@
         <image name="crayolaWhite.png" width="78" height="400"/>
         <image name="crayolaYellow.png" width="78" height="400"/>
         <image name="cuentaCuentos.png" width="250" height="200"/>
+        <image name="fondoAgua.png" width="1180" height="812"/>
+        <image name="home.png" width="128" height="128"/>
         <image name="leccion.png" width="250" height="200"/>
         <image name="menuRenovables.png" width="350" height="150"/>
         <image name="personajes_final.png" width="1254" height="858"/>
         <image name="reciclaje_letrero.png" width="250" height="150"/>
         <image name="renovables_letrero.png" width="250" height="150"/>
+        <image name="save.png" width="128" height="128"/>
         <image name="sobreNosotros.png" width="150" height="230"/>
         <image name="titulo_boton.png" width="600" height="200"/>
     </resources>

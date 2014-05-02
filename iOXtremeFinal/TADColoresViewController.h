@@ -27,10 +27,16 @@
 @property (strong,nonatomic) Tema *biodiversidad;
 @property (strong,nonatomic) Tema *paraEnviar;
 
+@property (weak, nonatomic) UIImage *guardar;
+@property (weak, nonatomic) IBOutlet UIImageView *prueba;
+
 @property (weak, nonatomic) IBOutlet UIImageView *mainImage;
 @property (weak, nonatomic) IBOutlet UIImageView *tempImage;
 - (IBAction)colorPressed:(id)sender;
 - (IBAction)whitePressed:(id)sender;
+- (IBAction)save:(id)sender;
+
+- (UIImage*)imageByCombiningImage:(UIImage*)firstImage withImage:(UIImage*)secondImage;
 
 -(void)setTemas:(Tema *)agua Energias:(Tema *)energias Biodiversidad:(Tema *)biodiversidad Reciclaje:(Tema *)reciclaje;
 @end

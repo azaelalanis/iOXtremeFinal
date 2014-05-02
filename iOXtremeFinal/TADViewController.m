@@ -25,10 +25,10 @@
 
 -(void) cargarObjetos
 {
-    _agua = [[Tema alloc] initWithName:@"fondoAgua.png" elMenu:@"menuAgua.png" laActividad:@"actividadAgua.png" elNombre:@"agua"];
-    _energias = [[Tema alloc] initWithName:@"fondoRenovables.png" elMenu:@"menuRenovables.png" laActividad:@"actividadEnergias.png" elNombre:@"energias"];
-    _reciclaje = [[Tema alloc] initWithName:@"fondoReciclaje.png" elMenu:@"menuReciclaje.png" laActividad:@"actividadReciclaje.png" elNombre:@"reciclaje"];
-    _biodiversidad = [[Tema alloc] initWithName:@"fondoBiodiversidad.png" elMenu:@"menuBiodiversidad.png" laActividad:@"actividadBiodiversidad.png" elNombre:@"biodiversidad"];
+    _agua = [[Tema alloc] initWithName:@"fondoAgua.png" elMenu:@"menuAgua.png" laActividad:@"actividadAguaTransparente.png" elNombre:@"agua"];
+    _energias = [[Tema alloc] initWithName:@"fondoRenovables.png" elMenu:@"menuRenovables.png" laActividad:@"actividadEnergiasTransparente.png" elNombre:@"energias"];
+    _reciclaje = [[Tema alloc] initWithName:@"fondoReciclaje.png" elMenu:@"menuReciclaje.png" laActividad:@"actividadReciclajeTransparente.png" elNombre:@"reciclaje"];
+    _biodiversidad = [[Tema alloc] initWithName:@"fondoBiodiversidad.png" elMenu:@"menuBiodiversidad.png" laActividad:@"actividadBiodiversidadTransparente.png" elNombre:@"biodiversidad"];
 }
 
 - (void)didReceiveMemoryWarning
