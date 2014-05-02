@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B432C11E-C7A8-4872-927F-E6041537AE73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOXtremeFinal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2EB32EE7-8D94-4ECE-8423-4CC93F4D4511</key>
+		<string>https://github.com/azaelalanis/iOXtremeFinal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOXtremeFinal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2EB32EE7-8D94-4ECE-8423-4CC93F4D4511</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/azaelalanis/iOXtremeFinal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2EB32EE7-8D94-4ECE-8423-4CC93F4D4511</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2EB32EE7-8D94-4ECE-8423-4CC93F4D4511</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOXtremeFinal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
