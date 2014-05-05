@@ -25,6 +25,7 @@
 - (IBAction)botonReciclaje:(id)sender;
 - (IBAction)botonBiodiversidad:(id)sender;
 - (IBAction)botonSobreNosotros:(id)sender;
+- (IBAction)botonPlayStop:(id)sender;
 
 
 @end

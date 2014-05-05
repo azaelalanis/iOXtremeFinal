@@ -76,10 +76,63 @@
 		DD34B92019036112006E29B7 /* actividadEnergiasTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91C19036112006E29B7 /* actividadEnergiasTransparente.png */; };
 		DD34B92119036112006E29B7 /* actividadReciclajeTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B91D19036112006E29B7 /* actividadReciclajeTransparente.png */; };
 		DD34B92319036385006E29B7 /* actividadBiodiversidadTransparente.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92219036385006E29B7 /* actividadBiodiversidadTransparente.png */; };
-		DD34B92719036886006E29B7 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92419036886006E29B7 /* arrow.png */; };
-		DD34B92819036886006E29B7 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92519036886006E29B7 /* home.png */; };
-		DD34B92919036886006E29B7 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = DD34B92619036886006E29B7 /* save.png */; };
 		DD5B549918E5C6C60016251E /* Tema.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B549818E5C6C60016251E /* Tema.m */; };
+		DD69AB7019144A45006B129D /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AB6F19144A45006B129D /* robot.png */; };
+		DD69AB7219144BAE006B129D /* biodiversidad_video.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AB7119144BAE006B129D /* biodiversidad_video.png */; };
+		DD69AB7619144D05006B129D /* agua_video.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AB7319144D05006B129D /* agua_video.png */; };
+		DD69AB7719144D05006B129D /* energias_video.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AB7419144D05006B129D /* energias_video.png */; };
+		DD69AB7819144D05006B129D /* reciclaje_video.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AB7519144D05006B129D /* reciclaje_video.png */; };
+		DD69AB9E19161D59006B129D /* TADPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69AB9D19161D59006B129D /* TADPageContentViewController.m */; };
+		DD69ABAF19162D8E006B129D /* agua1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABAD19162D8E006B129D /* agua1.png */; };
+		DD69ABB019162D8E006B129D /* agua2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABAE19162D8E006B129D /* agua2.png */; };
+		DD69ABB319162E27006B129D /* agua3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABB119162E27006B129D /* agua3.png */; };
+		DD69ABBA19162EB3006B129D /* agua4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABB919162EB3006B129D /* agua4.png */; };
+		DD69ABCE1916D5B8006B129D /* Childrens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABCD1916D5B8006B129D /* Childrens.mp3 */; };
+		DD69ABCF1916D5B8006B129D /* Childrens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABCD1916D5B8006B129D /* Childrens.mp3 */; };
+		DD69ABD11916D641006B129D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD69ABD01916D641006B129D /* AVFoundation.framework */; };
+		DD69ABD81916E952006B129D /* energias1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD21916E952006B129D /* energias1.png */; };
+		DD69ABD91916E952006B129D /* energias1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD21916E952006B129D /* energias1.png */; };
+		DD69ABDA1916E952006B129D /* energias2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD31916E952006B129D /* energias2.png */; };
+		DD69ABDB1916E952006B129D /* energias2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD31916E952006B129D /* energias2.png */; };
+		DD69ABDC1916E952006B129D /* energias3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD41916E952006B129D /* energias3.png */; };
+		DD69ABDD1916E952006B129D /* energias3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD41916E952006B129D /* energias3.png */; };
+		DD69ABDE1916E952006B129D /* energias4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD51916E952006B129D /* energias4.png */; };
+		DD69ABDF1916E952006B129D /* energias4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD51916E952006B129D /* energias4.png */; };
+		DD69ABE01916E952006B129D /* energias5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD61916E952006B129D /* energias5.png */; };
+		DD69ABE11916E952006B129D /* energias5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD61916E952006B129D /* energias5.png */; };
+		DD69ABE21916E952006B129D /* energias6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD71916E952006B129D /* energias6.png */; };
+		DD69ABE31916E952006B129D /* energias6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABD71916E952006B129D /* energias6.png */; };
+		DD69ABE71916EB66006B129D /* biodiversidad1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE41916EB66006B129D /* biodiversidad1.png */; };
+		DD69ABE81916EB66006B129D /* biodiversidad1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE41916EB66006B129D /* biodiversidad1.png */; };
+		DD69ABE91916EB66006B129D /* biodiversidad2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE51916EB66006B129D /* biodiversidad2.png */; };
+		DD69ABEA1916EB66006B129D /* biodiversidad2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE51916EB66006B129D /* biodiversidad2.png */; };
+		DD69ABEB1916EB66006B129D /* biodiversidad3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE61916EB66006B129D /* biodiversidad3.png */; };
+		DD69ABEC1916EB66006B129D /* biodiversidad3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69ABE61916EB66006B129D /* biodiversidad3.png */; };
+		DD69AC1B1916EF03006B129D /* reciclaje1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC171916EF03006B129D /* reciclaje1.png */; };
+		DD69AC1C1916EF03006B129D /* reciclaje1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC171916EF03006B129D /* reciclaje1.png */; };
+		DD69AC1F1916EF03006B129D /* reciclaje3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC191916EF03006B129D /* reciclaje3.png */; };
+		DD69AC201916EF03006B129D /* reciclaje3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC191916EF03006B129D /* reciclaje3.png */; };
+		DD69AC211916EF03006B129D /* reciclaje4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC1A1916EF03006B129D /* reciclaje4.png */; };
+		DD69AC221916EF03006B129D /* reciclaje4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC1A1916EF03006B129D /* reciclaje4.png */; };
+		DD69AC241916EF8C006B129D /* reciclaje2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC231916EF8C006B129D /* reciclaje2.png */; };
+		DD69AC251916EF8C006B129D /* reciclaje2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC231916EF8C006B129D /* reciclaje2.png */; };
+		DD69AC291916F35C006B129D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC261916F35C006B129D /* home.png */; };
+		DD69AC2A1916F35C006B129D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC261916F35C006B129D /* home.png */; };
+		DD69AC2B1916F35C006B129D /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC271916F35C006B129D /* save.png */; };
+		DD69AC2C1916F35C006B129D /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC271916F35C006B129D /* save.png */; };
+		DD69AC2D1916F35C006B129D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC281916F35C006B129D /* arrow.png */; };
+		DD69AC2E1916F35C006B129D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC281916F35C006B129D /* arrow.png */; };
+		DD69AC301916F3DA006B129D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC2F1916F3DA006B129D /* reload.png */; };
+		DD69AC311916F3DA006B129D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC2F1916F3DA006B129D /* reload.png */; };
+		DD69AC331916F5EF006B129D /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC321916F5EF006B129D /* audio.png */; };
+		DD69AC341916F5EF006B129D /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC321916F5EF006B129D /* audio.png */; };
+		DD69AC391916F7C0006B129D /* sponsors.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC381916F7C0006B129D /* sponsors.png */; };
+		DD69AC3A1916F7C0006B129D /* sponsors.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC381916F7C0006B129D /* sponsors.png */; };
+		DD69AC401918153B006B129D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD69AC3F1918153B006B129D /* MediaPlayer.framework */; };
+		DD69AC4C19181C0A006B129D /* Reciclaje1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC4B19181BB3006B129D /* Reciclaje1.m4a */; };
+		DD69AC4D19181C0A006B129D /* Reciclaje2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC4519181A90006B129D /* Reciclaje2.m4a */; };
+		DD69AC4E19181C0A006B129D /* Reciclaje3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC4619181A90006B129D /* Reciclaje3.m4a */; };
+		DD69AC4F19181C0A006B129D /* Reciclaje4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC4719181A90006B129D /* Reciclaje4.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,11 +225,45 @@
 		DD34B91C19036112006E29B7 /* actividadEnergiasTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadEnergiasTransparente.png; sourceTree = "<group>"; };
 		DD34B91D19036112006E29B7 /* actividadReciclajeTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadReciclajeTransparente.png; sourceTree = "<group>"; };
 		DD34B92219036385006E29B7 /* actividadBiodiversidadTransparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actividadBiodiversidadTransparente.png; sourceTree = "<group>"; };
-		DD34B92419036886006E29B7 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		DD34B92519036886006E29B7 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		DD34B92619036886006E29B7 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		DD5B549718E5C6C60016251E /* Tema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tema.h; sourceTree = "<group>"; };
 		DD5B549818E5C6C60016251E /* Tema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tema.m; sourceTree = "<group>"; };
+		DD69AB6F19144A45006B129D /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
+		DD69AB7119144BAE006B129D /* biodiversidad_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biodiversidad_video.png; sourceTree = "<group>"; };
+		DD69AB7319144D05006B129D /* agua_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua_video.png; sourceTree = "<group>"; };
+		DD69AB7419144D05006B129D /* energias_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energias_video.png; sourceTree = "<group>"; };
+		DD69AB7519144D05006B129D /* reciclaje_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaje_video.png; sourceTree = "<group>"; };
+		DD69AB9C19161D59006B129D /* TADPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADPageContentViewController.h; sourceTree = "<group>"; };
+		DD69AB9D19161D59006B129D /* TADPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADPageContentViewController.m; sourceTree = "<group>"; };
+		DD69ABAD19162D8E006B129D /* agua1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua1.png; sourceTree = "<group>"; };
+		DD69ABAE19162D8E006B129D /* agua2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua2.png; sourceTree = "<group>"; };
+		DD69ABB119162E27006B129D /* agua3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua3.png; sourceTree = "<group>"; };
+		DD69ABB919162EB3006B129D /* agua4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua4.png; sourceTree = "<group>"; };
+		DD69ABCD1916D5B8006B129D /* Childrens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Childrens.mp3; sourceTree = "<group>"; };
+		DD69ABD01916D641006B129D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD69ABD21916E952006B129D /* energias1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias1.png; path = "../Release2/imágenes/lecciones/energías/energias1.png"; sourceTree = "<group>"; };
+		DD69ABD31916E952006B129D /* energias2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias2.png; path = "../Release2/imágenes/lecciones/energías/energias2.png"; sourceTree = "<group>"; };
+		DD69ABD41916E952006B129D /* energias3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias3.png; path = "../Release2/imágenes/lecciones/energías/energias3.png"; sourceTree = "<group>"; };
+		DD69ABD51916E952006B129D /* energias4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias4.png; path = "../Release2/imágenes/lecciones/energías/energias4.png"; sourceTree = "<group>"; };
+		DD69ABD61916E952006B129D /* energias5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias5.png; path = "../Release2/imágenes/lecciones/energías/energias5.png"; sourceTree = "<group>"; };
+		DD69ABD71916E952006B129D /* energias6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energias6.png; path = "../Release2/imágenes/lecciones/energías/energias6.png"; sourceTree = "<group>"; };
+		DD69ABE41916EB66006B129D /* biodiversidad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = biodiversidad1.png; path = "../Release2/imágenes/lecciones/biodiversidad/biodiversidad1.png"; sourceTree = "<group>"; };
+		DD69ABE51916EB66006B129D /* biodiversidad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = biodiversidad2.png; path = "../Release2/imágenes/lecciones/biodiversidad/biodiversidad2.png"; sourceTree = "<group>"; };
+		DD69ABE61916EB66006B129D /* biodiversidad3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = biodiversidad3.png; path = "../Release2/imágenes/lecciones/biodiversidad/biodiversidad3.png"; sourceTree = "<group>"; };
+		DD69AC171916EF03006B129D /* reciclaje1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaje1.png; sourceTree = "<group>"; };
+		DD69AC191916EF03006B129D /* reciclaje3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaje3.png; sourceTree = "<group>"; };
+		DD69AC1A1916EF03006B129D /* reciclaje4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaje4.png; sourceTree = "<group>"; };
+		DD69AC231916EF8C006B129D /* reciclaje2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaje2.png; sourceTree = "<group>"; };
+		DD69AC261916F35C006B129D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		DD69AC271916F35C006B129D /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		DD69AC281916F35C006B129D /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		DD69AC2F1916F3DA006B129D /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		DD69AC321916F5EF006B129D /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		DD69AC381916F7C0006B129D /* sponsors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sponsors.png; sourceTree = "<group>"; };
+		DD69AC3F1918153B006B129D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DD69AC4519181A90006B129D /* Reciclaje2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reciclaje2.m4a; sourceTree = "<group>"; };
+		DD69AC4619181A90006B129D /* Reciclaje3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reciclaje3.m4a; sourceTree = "<group>"; };
+		DD69AC4719181A90006B129D /* Reciclaje4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reciclaje4.m4a; sourceTree = "<group>"; };
+		DD69AC4B19181BB3006B129D /* Reciclaje1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reciclaje1.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +271,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD69AC401918153B006B129D /* MediaPlayer.framework in Frameworks */,
+				DD69ABD11916D641006B129D /* AVFoundation.framework in Frameworks */,
 				1765B92E18E2372700035E87 /* CoreGraphics.framework in Frameworks */,
 				1765B93018E2372700035E87 /* UIKit.framework in Frameworks */,
 				1765B92C18E2372700035E87 /* Foundation.framework in Frameworks */,
@@ -206,7 +295,15 @@
 		1765B91F18E2372700035E87 = {
 			isa = PBXGroup;
 			children = (
+				DD69AC4B19181BB3006B129D /* Reciclaje1.m4a */,
+				DD69AC4519181A90006B129D /* Reciclaje2.m4a */,
+				DD69AC4619181A90006B129D /* Reciclaje3.m4a */,
+				DD69AC4719181A90006B129D /* Reciclaje4.m4a */,
 				DD34B90E1902456F006E29B7 /* icon.png */,
+				DD69AB6F19144A45006B129D /* robot.png */,
+				DD69ABCD1916D5B8006B129D /* Childrens.mp3 */,
+				DD69AB81191619C6006B129D /* Lecciones */,
+				DD69AB6E19144199006B129D /* Videos */,
 				DD34B90B19023671006E29B7 /* Actividades */,
 				DD34B8D019022DEA006E29B7 /* Crayolas */,
 				DD34B89918FF968D006E29B7 /* Botones */,
@@ -232,6 +329,8 @@
 		1765B92A18E2372700035E87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD69AC3F1918153B006B129D /* MediaPlayer.framework */,
+				DD69ABD01916D641006B129D /* AVFoundation.framework */,
 				1765B92B18E2372700035E87 /* Foundation.framework */,
 				1765B92D18E2372700035E87 /* CoreGraphics.framework */,
 				1765B92F18E2372700035E87 /* UIKit.framework */,
@@ -353,6 +452,8 @@
 		1765B98818E2564900035E87 /* Leccion View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD69AB9C19161D59006B129D /* TADPageContentViewController.h */,
+				DD69AB9D19161D59006B129D /* TADPageContentViewController.m */,
 				1765B97D18E2561900035E87 /* TADLeccionViewController.h */,
 				1765B97E18E2561900035E87 /* TADLeccionViewController.m */,
 			);
@@ -362,6 +463,7 @@
 		DD34B85118FF4FF5006E29B7 /* Imagenes Home Page */ = {
 			isa = PBXGroup;
 			children = (
+				DD69AC381916F7C0006B129D /* sponsors.png */,
 				DD34B85C18FF5661006E29B7 /* sobreNosotros.png */,
 				DD34B85A18FF5329006E29B7 /* titulo_boton.png */,
 				DD34B85418FF50E2006E29B7 /* agua_letrero.png */,
@@ -389,9 +491,11 @@
 		DD34B89918FF968D006E29B7 /* Botones */ = {
 			isa = PBXGroup;
 			children = (
-				DD34B92419036886006E29B7 /* arrow.png */,
-				DD34B92519036886006E29B7 /* home.png */,
-				DD34B92619036886006E29B7 /* save.png */,
+				DD69AC321916F5EF006B129D /* audio.png */,
+				DD69AC2F1916F3DA006B129D /* reload.png */,
+				DD69AC261916F35C006B129D /* home.png */,
+				DD69AC271916F35C006B129D /* save.png */,
+				DD69AC281916F35C006B129D /* arrow.png */,
 				DD34B8A218FF9AB1006E29B7 /* menuAgua.png */,
 				DD34B8A318FF9AB1006E29B7 /* menuBiodiversidad.png */,
 				DD34B8A418FF9AB1006E29B7 /* menuHome.png */,
@@ -453,6 +557,41 @@
 				DD5B549818E5C6C60016251E /* Tema.m */,
 			);
 			name = Temas;
+			sourceTree = "<group>";
+		};
+		DD69AB6E19144199006B129D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				DD69AB7319144D05006B129D /* agua_video.png */,
+				DD69AB7419144D05006B129D /* energias_video.png */,
+				DD69AB7519144D05006B129D /* reciclaje_video.png */,
+				DD69AB7119144BAE006B129D /* biodiversidad_video.png */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		DD69AB81191619C6006B129D /* Lecciones */ = {
+			isa = PBXGroup;
+			children = (
+				DD69AC171916EF03006B129D /* reciclaje1.png */,
+				DD69AC231916EF8C006B129D /* reciclaje2.png */,
+				DD69AC191916EF03006B129D /* reciclaje3.png */,
+				DD69AC1A1916EF03006B129D /* reciclaje4.png */,
+				DD69ABE41916EB66006B129D /* biodiversidad1.png */,
+				DD69ABE51916EB66006B129D /* biodiversidad2.png */,
+				DD69ABE61916EB66006B129D /* biodiversidad3.png */,
+				DD69ABAD19162D8E006B129D /* agua1.png */,
+				DD69ABAE19162D8E006B129D /* agua2.png */,
+				DD69ABB119162E27006B129D /* agua3.png */,
+				DD69ABB919162EB3006B129D /* agua4.png */,
+				DD69ABD21916E952006B129D /* energias1.png */,
+				DD69ABD31916E952006B129D /* energias2.png */,
+				DD69ABD41916E952006B129D /* energias3.png */,
+				DD69ABD51916E952006B129D /* energias4.png */,
+				DD69ABD61916E952006B129D /* energias5.png */,
+				DD69ABD71916E952006B129D /* energias6.png */,
+			);
+			name = Lecciones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,17 +671,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD69AC4C19181C0A006B129D /* Reciclaje1.m4a in Resources */,
+				DD69AC4D19181C0A006B129D /* Reciclaje2.m4a in Resources */,
+				DD69AC4E19181C0A006B129D /* Reciclaje3.m4a in Resources */,
+				DD69AC4F19181C0A006B129D /* Reciclaje4.m4a in Resources */,
 				DD34B8A918FF9AB1006E29B7 /* menuHome.png in Resources */,
+				DD69ABDE1916E952006B129D /* energias4.png in Resources */,
+				DD69AC291916F35C006B129D /* home.png in Resources */,
+				DD69ABE71916EB66006B129D /* biodiversidad1.png in Resources */,
+				DD69AC301916F3DA006B129D /* reload.png in Resources */,
+				DD69AC2D1916F35C006B129D /* arrow.png in Resources */,
 				DD34B9051902339B006E29B7 /* crayolaRed.png in Resources */,
 				DD34B85818FF50E2006E29B7 /* reciclaje_letrero.png in Resources */,
 				1765B94418E2372700035E87 /* Images.xcassets in Resources */,
+				DD69ABE21916E952006B129D /* energias6.png in Resources */,
 				DD34B87C18FF8951006E29B7 /* leccion.png in Resources */,
 				DD34B9001902339B006E29B7 /* crayolaGrey.png in Resources */,
 				DD34B8B118FFB60F006E29B7 /* colorFondo.png in Resources */,
 				DD34B89718FF9647006E29B7 /* fondoReciclaje.png in Resources */,
 				DD34B8FE1902339B006E29B7 /* crayolaBrown.png in Resources */,
+				DD69AB7019144A45006B129D /* robot.png in Resources */,
+				DD69ABCE1916D5B8006B129D /* Childrens.mp3 in Resources */,
+				DD69AB7819144D05006B129D /* reciclaje_video.png in Resources */,
 				DD34B85318FF5045006E29B7 /* biodiversidad_letrero.png in Resources */,
+				DD69ABD81916E952006B129D /* energias1.png in Resources */,
 				1765B96718E23A2B00035E87 /* bienvenida2.png in Resources */,
+				DD69AC1F1916EF03006B129D /* reciclaje3.png in Resources */,
+				DD69AC331916F5EF006B129D /* audio.png in Resources */,
 				DD34B85718FF50E2006E29B7 /* agua_letrero.png in Resources */,
 				DD34B9041902339B006E29B7 /* crayolaPurple.png in Resources */,
 				DD34B92319036385006E29B7 /* actividadBiodiversidadTransparente.png in Resources */,
@@ -550,44 +705,58 @@
 				DD34B89618FF9647006E29B7 /* fondoBiodiversidad.png in Resources */,
 				DD34B85D18FF5661006E29B7 /* sobreNosotros.png in Resources */,
 				DD34B89818FF9647006E29B7 /* fondoRenovables.png in Resources */,
+				DD69ABEB1916EB66006B129D /* biodiversidad3.png in Resources */,
 				DD34B85B18FF5329006E29B7 /* titulo_boton.png in Resources */,
 				DD34B87A18FF8425006E29B7 /* colorear.png in Resources */,
+				DD69ABBA19162EB3006B129D /* agua4.png in Resources */,
 				DD34B85018FF4F38006E29B7 /* personajes_final.png in Resources */,
+				DD69ABDC1916E952006B129D /* energias3.png in Resources */,
 				1765B93618E2372700035E87 /* InfoPlist.strings in Resources */,
 				DD34B9061902339B006E29B7 /* crayolaSky.png in Resources */,
 				DD34B8FD1902339B006E29B7 /* crayolaBlue.png in Resources */,
+				DD69AB7719144D05006B129D /* energias_video.png in Resources */,
 				1765B97B18E2549400035E87 /* drawButton.aspx-3.png in Resources */,
 				DD34B8FB1902339B006E29B7 /* crayolaBeige.png in Resources */,
-				DD34B92919036886006E29B7 /* save.png in Resources */,
 				DD34B85918FF50E2006E29B7 /* renovables_letrero.png in Resources */,
 				DD34B92019036112006E29B7 /* actividadEnergiasTransparente.png in Resources */,
 				DD34B91E19036112006E29B7 /* actividadAguaTransparente.png in Resources */,
 				1765B97C18E2549400035E87 /* drawButton.aspx.png in Resources */,
 				1765B97A18E2549400035E87 /* drawButton.aspx-2.png in Resources */,
 				DD34B8AB18FF9AB1006E29B7 /* menuRenovables.png in Resources */,
+				DD69AC1B1916EF03006B129D /* reciclaje1.png in Resources */,
+				DD69AC241916EF8C006B129D /* reciclaje2.png in Resources */,
 				1765B93F18E2372700035E87 /* Main.storyboard in Resources */,
 				DD34B8FC1902339B006E29B7 /* crayolaBlack.png in Resources */,
 				1765B96118E2374F00035E87 /* casa.jpg in Resources */,
 				DD34B8A818FF9AB1006E29B7 /* menuBiodiversidad.png in Resources */,
+				DD69ABDA1916E952006B129D /* energias2.png in Resources */,
 				1789BAF818E25CF300604D07 /* aprendizajeEnergias.png in Resources */,
 				DD34B92119036112006E29B7 /* actividadReciclajeTransparente.png in Resources */,
 				DD34B8A718FF9AB1006E29B7 /* menuAgua.png in Resources */,
+				DD69ABE01916E952006B129D /* energias5.png in Resources */,
 				1765B96518E2390C00035E87 /* bienvenida.png in Resources */,
 				1765B96C18E241B700035E87 /* aprendizajeBiodiversidad.png in Resources */,
 				DD34B9031902339B006E29B7 /* crayolaPink.png in Resources */,
 				DD34B9071902339B006E29B7 /* crayolaWhite.png in Resources */,
 				DD34B87818FF7DEB006E29B7 /* cuentaCuentos.png in Resources */,
+				DD69ABE91916EB66006B129D /* biodiversidad2.png in Resources */,
 				DD34B8AA18FF9AB1006E29B7 /* menuReciclaje.png in Resources */,
 				1789BAF718E25CF300604D07 /* aprendizajeAgua.png in Resources */,
-				DD34B92819036886006E29B7 /* home.png in Resources */,
 				DD34B9021902339B006E29B7 /* crayolaOrange.png in Resources */,
+				DD69AC211916EF03006B129D /* reciclaje4.png in Resources */,
 				DD34B9081902339B006E29B7 /* crayolaYellow.png in Resources */,
 				17628A6B18E266B500994934 /* back-button.jpg in Resources */,
-				DD34B92719036886006E29B7 /* arrow.png in Resources */,
+				DD69ABB019162D8E006B129D /* agua2.png in Resources */,
+				DD69AB7619144D05006B129D /* agua_video.png in Resources */,
 				DD34B90F1902456F006E29B7 /* icon.png in Resources */,
 				DD34B89518FF9647006E29B7 /* fondoAgua.png in Resources */,
+				DD69ABAF19162D8E006B129D /* agua1.png in Resources */,
+				DD69AC391916F7C0006B129D /* sponsors.png in Resources */,
 				1789BAF918E25CF300604D07 /* aprendizajeReciclaje.png in Resources */,
+				DD69AC2B1916F35C006B129D /* save.png in Resources */,
+				DD69AB7219144BAE006B129D /* biodiversidad_video.png in Resources */,
 				DD34B8FF1902339B006E29B7 /* crayolaGreen.png in Resources */,
+				DD69ABB319162E27006B129D /* agua3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +764,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD69ABDD1916E952006B129D /* energias3.png in Resources */,
+				DD69ABDF1916E952006B129D /* energias4.png in Resources */,
+				DD69ABE31916E952006B129D /* energias6.png in Resources */,
+				DD69ABCF1916D5B8006B129D /* Childrens.mp3 in Resources */,
+				DD69AC2A1916F35C006B129D /* home.png in Resources */,
+				DD69AC221916EF03006B129D /* reciclaje4.png in Resources */,
+				DD69ABEC1916EB66006B129D /* biodiversidad3.png in Resources */,
+				DD69ABEA1916EB66006B129D /* biodiversidad2.png in Resources */,
+				DD69AC311916F3DA006B129D /* reload.png in Resources */,
+				DD69ABE81916EB66006B129D /* biodiversidad1.png in Resources */,
 				1765B95518E2372700035E87 /* InfoPlist.strings in Resources */,
+				DD69AC2C1916F35C006B129D /* save.png in Resources */,
+				DD69AC1C1916EF03006B129D /* reciclaje1.png in Resources */,
+				DD69AC251916EF8C006B129D /* reciclaje2.png in Resources */,
+				DD69AC341916F5EF006B129D /* audio.png in Resources */,
+				DD69AC2E1916F35C006B129D /* arrow.png in Resources */,
+				DD69AC201916EF03006B129D /* reciclaje3.png in Resources */,
+				DD69ABD91916E952006B129D /* energias1.png in Resources */,
+				DD69ABDB1916E952006B129D /* energias2.png in Resources */,
+				DD69AC3A1916F7C0006B129D /* sponsors.png in Resources */,
+				DD69ABE11916E952006B129D /* energias5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +800,7 @@
 				1765B98518E2563200035E87 /* TADColoresViewController.m in Sources */,
 				1765B93818E2372700035E87 /* main.m in Sources */,
 				DD5B549918E5C6C60016251E /* Tema.m in Sources */,
+				DD69AB9E19161D59006B129D /* TADPageContentViewController.m in Sources */,
 				DD34B8AE18FFB577006E29B7 /* TADSobreNosotrosViewController.m in Sources */,
 				1765B96A18E2415B00035E87 /* TADOpcionesViewController.m in Sources */,
 				1765B97F18E2561900035E87 /* TADLeccionViewController.m in Sources */,

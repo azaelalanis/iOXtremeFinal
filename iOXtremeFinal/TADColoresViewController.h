@@ -36,7 +36,5 @@
 - (IBAction)whitePressed:(id)sender;
 - (IBAction)save:(id)sender;
 
-- (UIImage*)imageByCombiningImage:(UIImage*)firstImage withImage:(UIImage*)secondImage;
-
 -(void)setTemas:(Tema *)agua Energias:(Tema *)energias Biodiversidad:(Tema *)biodiversidad Reciclaje:(Tema *)reciclaje;
 @end

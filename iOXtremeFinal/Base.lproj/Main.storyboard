@@ -83,6 +83,16 @@
                                     <segue destination="sao-ug-tLU" kind="modal" identifier="sobreNosotros" id="00C-13-scB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXe-u0-y7s">
+                                <rect key="frame" x="942" y="20" width="62" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="audio.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonPlayStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Izm-pG-4vj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -109,14 +119,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3b-AP-SDc">
-                                <rect key="frame" x="111" y="149" width="799" height="501"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAe-Kt-Qih">
                                 <rect key="frame" x="35" y="36" width="86" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,6 +129,31 @@
                                     <segue destination="2SM-po-J6X" kind="unwind" unwindAction="unwindHome:" id="TJq-MK-vRl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sponsors.png" translatesAutoresizingMaskIntoConstraints="NO" id="ziU-H5-6Ea">
+                                <rect key="frame" x="110" y="580" width="804" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tania Garrido Salido" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="1024" translatesAutoresizingMaskIntoConstraints="NO" id="qPG-0L-fEw">
+                                <rect key="frame" x="0.0" y="227" width="1024" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Azael Alberto Alanis Garza " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="1024" translatesAutoresizingMaskIntoConstraints="NO" id="pR1-QX-Qv9">
+                                <rect key="frame" x="0.0" y="287" width="1024" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jesus David de la Fuente Amaya" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="1024" translatesAutoresizingMaskIntoConstraints="NO" id="YXo-vi-dTq">
+                                <rect key="frame" x="0.0" y="357" width="1024" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -136,7 +163,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aic-wF-79H" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="2SM-po-J6X" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="629" y="-1238"/>
+            <point key="canvasLocation" x="666" y="-1303"/>
         </scene>
         <!--Opciones View Controller-->
         <scene sceneID="cmh-yS-RcW">
@@ -300,6 +327,66 @@
             </objects>
             <point key="canvasLocation" x="2510" y="-1238"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="ad0-tM-8xl">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="SGa-pE-JQH" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tv4-Oe-SQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3818" y="-1888"/>
+        </scene>
+        <!--Page Content View Controller-->
+        <scene sceneID="7dW-nR-DzF">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" id="l1r-3U-u1V" customClass="TADPageContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d6H-rU-g64"/>
+                        <viewControllerLayoutGuide type="bottom" id="rl5-qo-TcO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="52B-w4-L2g">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0iI-gD-C4F">
+                                <rect key="frame" x="-94" y="-6" width="1124" height="925"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H2-Sl-jBo">
+                                <rect key="frame" x="20" y="20" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Qm-u8-EtG" kind="unwind" unwindAction="unwindOpciones:" id="N7S-cH-tcj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1o-g6-rE4">
+                                <rect key="frame" x="35" y="104" width="48" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="reload.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWalkthrough:" destination="f3w-VL-Ynm" eventType="touchUpInside" id="f5w-fC-SEw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="0iI-gD-C4F" id="boR-Jj-kBM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3w-VL-Ynm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="7Qm-u8-EtG" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3826" y="-784"/>
+        </scene>
         <!--Video View Controller-->
         <scene sceneID="3I6-As-KMk">
             <objects>
@@ -312,32 +399,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoAgua.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Xx-Mk-U0s">
-                                <rect key="frame" x="-10" y="-10" width="1040" height="786"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="energias_video.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Xx-Mk-U0s">
+                                <rect key="frame" x="-36" y="-18" width="1040" height="786"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-bp-E35">
-                                <rect key="frame" x="20" y="20" width="96" height="72"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pde-X0-mQg">
+                                <rect key="frame" x="536" y="332" width="408" height="303"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="back-button.jpg">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-bp-E35">
+                                <rect key="frame" x="20" y="20" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrow.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="utj-Tb-U19" kind="unwind" unwindAction="unwindOpciones:" id="Zn2-o0-eYf"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="opK-b3-cng">
-                                <rect key="frame" x="187" y="287" width="537" height="343"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="robot.png" translatesAutoresizingMaskIntoConstraints="NO" id="CKe-0d-iXv">
+                                <rect key="frame" x="704" y="237" width="134" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="youTube" destination="opK-b3-cng" id="fcT-zF-QMw"/>
+                        <outlet property="videoImage" destination="2Xx-Mk-U0s" id="pCc-hE-uSc"/>
+                        <outlet property="youTube" destination="pde-X0-mQg" id="8Ec-hg-YWe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSi-vg-CM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -543,12 +635,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NjI-RT-YGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="cll-Bg-2Cv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2577" y="660"/>
+            <point key="canvasLocation" x="2510" y="664"/>
         </scene>
     </scenes>
     <resources>
         <image name="agua_letrero.png" width="250" height="150"/>
         <image name="arrow.png" width="128" height="128"/>
+        <image name="audio.png" width="128" height="128"/>
         <image name="back-button.jpg" width="382" height="288"/>
         <image name="biodiversidad_letrero.png" width="250" height="150"/>
         <image name="colorFondo.png" width="1254" height="858"/>
@@ -568,15 +661,18 @@
         <image name="crayolaWhite.png" width="78" height="400"/>
         <image name="crayolaYellow.png" width="78" height="400"/>
         <image name="cuentaCuentos.png" width="250" height="200"/>
-        <image name="fondoAgua.png" width="1180" height="812"/>
+        <image name="energias_video.png" width="1173" height="812"/>
         <image name="home.png" width="128" height="128"/>
         <image name="leccion.png" width="250" height="200"/>
         <image name="menuRenovables.png" width="350" height="150"/>
         <image name="personajes_final.png" width="1254" height="858"/>
         <image name="reciclaje_letrero.png" width="250" height="150"/>
+        <image name="reload.png" width="267" height="267"/>
         <image name="renovables_letrero.png" width="250" height="150"/>
+        <image name="robot.png" width="150" height="150"/>
         <image name="save.png" width="128" height="128"/>
         <image name="sobreNosotros.png" width="150" height="230"/>
+        <image name="sponsors.png" width="452" height="53"/>
         <image name="titulo_boton.png" width="600" height="200"/>
     </resources>
     <color key="tintColor" red="0.89204259072580649" green="0.7084803427419355" blue="0.38972380999999956" alpha="1" colorSpace="calibratedRGB"/>

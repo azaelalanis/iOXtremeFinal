@@ -10,7 +10,7 @@
 
 @implementation Tema
 
--(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu laActividad:(NSString *)actividad elNombre:(NSString *)nombre
+-(id) initWithName: (NSString *) fondo elMenu: (NSString *) menu laActividad:(NSString *)actividad elNombre:(NSString *)nombre elVideo:(NSString *)video elLink:(NSString *)link elTutorial:(NSArray *)tutorial lasCanciones:(NSArray *)canciones
 {
     self = [super init];
     
@@ -19,6 +19,10 @@
         _menu = menu;
         _nombre = nombre;
         _actividad = actividad;
+        _video = video;
+        _link = link;
+        _pageImages = tutorial;
+        _pageSongs = canciones;
     }
     
     return self;

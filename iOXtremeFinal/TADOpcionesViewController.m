@@ -129,6 +129,26 @@
         } else if ([_nombre isEqualToString:@"energias"]){
             _paraEnviar = _energias;
         }
+    }else if ([[segue identifier] isEqualToString:@"video"]){
+        if ([_nombre isEqualToString:@"agua"]) {
+            _paraEnviar = _agua;
+        } else if ([_nombre isEqualToString:@"biodiversidad"]){
+            _paraEnviar = _biodiversidad;
+        } else if ([_nombre isEqualToString:@"reciclaje"]){
+            _paraEnviar = _reciclaje;
+        } else if ([_nombre isEqualToString:@"energias"]){
+            _paraEnviar = _energias;
+        }
+    }else if ([[segue identifier] isEqualToString:@"leccion"]){
+        if ([_nombre isEqualToString:@"agua"]) {
+            _paraEnviar = _agua;
+        } else if ([_nombre isEqualToString:@"biodiversidad"]){
+            _paraEnviar = _biodiversidad;
+        } else if ([_nombre isEqualToString:@"reciclaje"]){
+            _paraEnviar = _reciclaje;
+        } else if ([_nombre isEqualToString:@"energias"]){
+            _paraEnviar = _energias;
+        }
     }
     if (_paraEnviar != NULL) {
         [[segue destinationViewController] setDetailItem:_paraEnviar];
