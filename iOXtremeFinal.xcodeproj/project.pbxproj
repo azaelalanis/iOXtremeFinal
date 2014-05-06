@@ -123,8 +123,6 @@
 		DD69AC6D19182EE3006B129D /* energias6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC6119182EE3006B129D /* energias6.png */; };
 		DD69AC751918A4C9006B129D /* Energias1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC6F1918A4B4006B129D /* Energias1.m4a */; };
 		DD69AC761918A4C9006B129D /* Energias2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC701918A4B4006B129D /* Energias2.m4a */; };
-		DD69AC771918A4C9006B129D /* Energias3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC711918A4B4006B129D /* Energias3.m4a */; };
-		DD69AC781918A4C9006B129D /* Energias4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC721918A4B4006B129D /* Energias4.m4a */; };
 		DD69AC791918A4C9006B129D /* Energias5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC731918A4B4006B129D /* Energias5.m4a */; };
 		DD69AC7A1918A4C9006B129D /* Energias6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC741918A4B4006B129D /* Energias6.m4a */; };
 		DD69AC7B1918A4D2006B129D /* Reciclaje1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC6E19182F0C006B129D /* Reciclaje1.m4a */; };
@@ -135,6 +133,8 @@
 		DD69AC871918B530006B129D /* Biodiversidad1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC801918B524006B129D /* Biodiversidad1.m4a */; };
 		DD69AC881918B530006B129D /* Biodiversidad2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC811918B524006B129D /* Biodiversidad2.m4a */; };
 		DD69AC891918B530006B129D /* Biodiversidad3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC821918B524006B129D /* Biodiversidad3.m4a */; };
+		DD69AC8C1918BE84006B129D /* Energias3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC8A1918BE77006B129D /* Energias3.m4a */; };
+		DD69AC8D1918BE84006B129D /* Energias4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD69AC8B1918BE77006B129D /* Energias4.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -260,8 +260,6 @@
 		DD69AC6E19182F0C006B129D /* Reciclaje1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reciclaje1.m4a; sourceTree = "<group>"; };
 		DD69AC6F1918A4B4006B129D /* Energias1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias1.m4a; sourceTree = "<group>"; };
 		DD69AC701918A4B4006B129D /* Energias2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias2.m4a; sourceTree = "<group>"; };
-		DD69AC711918A4B4006B129D /* Energias3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias3.m4a; sourceTree = "<group>"; };
-		DD69AC721918A4B4006B129D /* Energias4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias4.m4a; sourceTree = "<group>"; };
 		DD69AC731918A4B4006B129D /* Energias5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias5.m4a; sourceTree = "<group>"; };
 		DD69AC741918A4B4006B129D /* Energias6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias6.m4a; sourceTree = "<group>"; };
 		DD69AC7C1918B524006B129D /* Agua1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Agua1.m4a; sourceTree = "<group>"; };
@@ -271,6 +269,8 @@
 		DD69AC801918B524006B129D /* Biodiversidad1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biodiversidad1.m4a; sourceTree = "<group>"; };
 		DD69AC811918B524006B129D /* Biodiversidad2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biodiversidad2.m4a; sourceTree = "<group>"; };
 		DD69AC821918B524006B129D /* Biodiversidad3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biodiversidad3.m4a; sourceTree = "<group>"; };
+		DD69AC8A1918BE77006B129D /* Energias3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias3.m4a; sourceTree = "<group>"; };
+		DD69AC8B1918BE77006B129D /* Energias4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Energias4.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,8 +318,8 @@
 				DD69AC4719181A90006B129D /* Reciclaje4.m4a */,
 				DD69AC6F1918A4B4006B129D /* Energias1.m4a */,
 				DD69AC701918A4B4006B129D /* Energias2.m4a */,
-				DD69AC711918A4B4006B129D /* Energias3.m4a */,
-				DD69AC721918A4B4006B129D /* Energias4.m4a */,
+				DD69AC8A1918BE77006B129D /* Energias3.m4a */,
+				DD69AC8B1918BE77006B129D /* Energias4.m4a */,
 				DD69AC731918A4B4006B129D /* Energias5.m4a */,
 				DD69AC741918A4B4006B129D /* Energias6.m4a */,
 				DD34B90E1902456F006E29B7 /* icon.png */,
@@ -675,6 +675,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD69AC8C1918BE84006B129D /* Energias3.m4a in Resources */,
+				DD69AC8D1918BE84006B129D /* Energias4.m4a in Resources */,
 				DD69AC831918B530006B129D /* Agua1.m4a in Resources */,
 				DD69AC841918B530006B129D /* Agua2.m4a in Resources */,
 				DD69AC851918B530006B129D /* Agua3.m4a in Resources */,
@@ -685,8 +687,6 @@
 				DD69AC7B1918A4D2006B129D /* Reciclaje1.m4a in Resources */,
 				DD69AC751918A4C9006B129D /* Energias1.m4a in Resources */,
 				DD69AC761918A4C9006B129D /* Energias2.m4a in Resources */,
-				DD69AC771918A4C9006B129D /* Energias3.m4a in Resources */,
-				DD69AC781918A4C9006B129D /* Energias4.m4a in Resources */,
 				DD69AC791918A4C9006B129D /* Energias5.m4a in Resources */,
 				DD69AC7A1918A4C9006B129D /* Energias6.m4a in Resources */,
 				DD69AC5319182D8A006B129D /* biodiversidad1.png in Resources */,
