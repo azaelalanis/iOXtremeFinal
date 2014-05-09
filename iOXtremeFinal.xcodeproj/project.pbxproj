@@ -302,29 +302,8 @@
 		1765B91F18E2372700035E87 = {
 			isa = PBXGroup;
 			children = (
-				DD69AC5919182DDC006B129D /* biodiversidad1.png */,
-				DD69AC5A19182DDC006B129D /* biodiversidad2.png */,
-				DD69AC5B19182DDC006B129D /* biodiversidad3.png */,
-				DD69AC7C1918B524006B129D /* Agua1.m4a */,
-				DD69AC7D1918B524006B129D /* Agua2.m4a */,
-				DD69AC7E1918B524006B129D /* Agua3.m4a */,
-				DD69AC7F1918B524006B129D /* Agua4.m4a */,
-				DD69AC801918B524006B129D /* Biodiversidad1.m4a */,
-				DD69AC811918B524006B129D /* Biodiversidad2.m4a */,
-				DD69AC821918B524006B129D /* Biodiversidad3.m4a */,
-				DD69AC6E19182F0C006B129D /* Reciclaje1.m4a */,
-				DD69AC4519181A90006B129D /* Reciclaje2.m4a */,
-				DD69AC4619181A90006B129D /* Reciclaje3.m4a */,
-				DD69AC4719181A90006B129D /* Reciclaje4.m4a */,
-				DD69AC6F1918A4B4006B129D /* Energias1.m4a */,
-				DD69AC701918A4B4006B129D /* Energias2.m4a */,
-				DD69AC8A1918BE77006B129D /* Energias3.m4a */,
-				DD69AC8B1918BE77006B129D /* Energias4.m4a */,
-				DD69AC731918A4B4006B129D /* Energias5.m4a */,
-				DD69AC741918A4B4006B129D /* Energias6.m4a */,
 				DD34B90E1902456F006E29B7 /* icon.png */,
-				DD69AB6F19144A45006B129D /* robot.png */,
-				DD69ABCD1916D5B8006B129D /* Childrens.mp3 */,
+				DD309940191A9D4C00883EA8 /* Audios Lecciones */,
 				DD69AB81191619C6006B129D /* Lecciones */,
 				DD69AB6E19144199006B129D /* Videos */,
 				DD34B90B19023671006E29B7 /* Actividades */,
@@ -464,6 +443,31 @@
 			name = "Leccion View Controller";
 			sourceTree = "<group>";
 		};
+		DD309940191A9D4C00883EA8 /* Audios Lecciones */ = {
+			isa = PBXGroup;
+			children = (
+				DD69ABCD1916D5B8006B129D /* Childrens.mp3 */,
+				DD69AC7C1918B524006B129D /* Agua1.m4a */,
+				DD69AC7D1918B524006B129D /* Agua2.m4a */,
+				DD69AC7E1918B524006B129D /* Agua3.m4a */,
+				DD69AC7F1918B524006B129D /* Agua4.m4a */,
+				DD69AC801918B524006B129D /* Biodiversidad1.m4a */,
+				DD69AC811918B524006B129D /* Biodiversidad2.m4a */,
+				DD69AC821918B524006B129D /* Biodiversidad3.m4a */,
+				DD69AC6E19182F0C006B129D /* Reciclaje1.m4a */,
+				DD69AC4519181A90006B129D /* Reciclaje2.m4a */,
+				DD69AC4619181A90006B129D /* Reciclaje3.m4a */,
+				DD69AC4719181A90006B129D /* Reciclaje4.m4a */,
+				DD69AC6F1918A4B4006B129D /* Energias1.m4a */,
+				DD69AC701918A4B4006B129D /* Energias2.m4a */,
+				DD69AC8A1918BE77006B129D /* Energias3.m4a */,
+				DD69AC8B1918BE77006B129D /* Energias4.m4a */,
+				DD69AC731918A4B4006B129D /* Energias5.m4a */,
+				DD69AC741918A4B4006B129D /* Energias6.m4a */,
+			);
+			name = "Audios Lecciones";
+			sourceTree = "<group>";
+		};
 		DD34B85118FF4FF5006E29B7 /* Imagenes Home Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +570,7 @@
 		DD69AB6E19144199006B129D /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				DD69AB6F19144A45006B129D /* robot.png */,
 				DD69AB7319144D05006B129D /* agua_video.png */,
 				DD69AB7419144D05006B129D /* energias_video.png */,
 				DD69AB7519144D05006B129D /* reciclaje_video.png */,
@@ -577,6 +582,9 @@
 		DD69AB81191619C6006B129D /* Lecciones */ = {
 			isa = PBXGroup;
 			children = (
+				DD69AC5919182DDC006B129D /* biodiversidad1.png */,
+				DD69AC5A19182DDC006B129D /* biodiversidad2.png */,
+				DD69AC5B19182DDC006B129D /* biodiversidad3.png */,
 				DD69AC5C19182EE3006B129D /* energias1.png */,
 				DD69AC5D19182EE3006B129D /* energias2.png */,
 				DD69AC5E19182EE3006B129D /* energias3.png */,
