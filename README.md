@@ -1,7 +1,7 @@
-iOXtremeFinal
+Calentamiento Global Para Preescolar
 =============
 
-iOXtreme - Mobile applicaton for iPad that contains information about the global warming, specifically about water care, 
+Calentamiento Global Para Preescolar - Mobile applicaton for iPad that contains information about the global warming, specifically about water care, 
 biodiversity, renewable energy and recycling.This application will be focused on preschool kids and the content material 
 will be easily used by children of this age.
 
@@ -31,5 +31,5 @@ Authors:
 
   ITESM students
 	  Tania Garrido Salido <tania93@gmail.com>
-	  Azael Alaniz <azaelalaniz.g@gmail.com>
+	  Azael Alanis <azaelalanis.g@gmail.com>
 	  David De La Fuente <jdfa14@gmail.com>
